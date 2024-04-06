@@ -32,7 +32,7 @@ jobs:
 
     - name: Pylint
       run: |
-        pylint * --disable=R,C
+        pylint *.py --disable=R,C
 
     - name: Black
       run: |
