@@ -9,3 +9,4 @@ matplotlib
 statsmodels
 tqdm
 pytest
+black

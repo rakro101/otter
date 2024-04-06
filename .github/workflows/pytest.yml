@@ -29,3 +29,11 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+
+    - name: Pylint
+      run: |
+        pylint * --disable=R,C
+
+    - name: Black
+      run: |
+        black .
