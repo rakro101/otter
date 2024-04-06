@@ -10,3 +10,4 @@ statsmodels
 tqdm
 pytest
 black
+pylint
