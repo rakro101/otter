@@ -1,0 +1,10 @@
+numpy
+pandas
+networkx
+jupyter
+notebook
+ennemi
+scipy
+matplotlib
+statsmodels
+tqdm
