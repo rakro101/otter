@@ -11,3 +11,11 @@ tqdm
 pytest
 black
 pylint
+openpyxl
+scikit-learn
+scikit-bio
+seaborn
+umap-learn
+plotly
+kaleido
+matplotlib_venn

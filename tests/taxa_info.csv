@@ -1,0 +1,801 @@
+ASV;Kingdom;Phylum;Class;Order;Family;Genus;Species
+euk_asv_000;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_001;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_002;Eukaryota;Haptophyta;Prymnesiophyceae;Phaeocystales;Phaeocystaceae;Phaeocystis;Phaeocystis_pouchetii
+euk_asv_003;Eukaryota;Radiolaria;RAD-C;RAD-C uc;RAD-C uc;RAD-C uc;RAD-C uc_sp.
+euk_asv_004;Eukaryota;Dinoflagellata;Dinophyceae;Suessiales;Suessiaceae;Polarella;Polarella_glacialis
+euk_asv_005;Eukaryota;Ciliophora;Phyllopharyngea;Suctoria;Ephelotidae;Ephelota;Ephelota_mammillata
+euk_asv_006;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Pseudo-nitzschia;Pseudo-nitzschia_sp.
+euk_asv_007;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Fragilariopsis;Fragilariopsis uc
+euk_asv_008;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_heterogrammum
+euk_asv_009;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_fusiforme
+euk_asv_010;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Fragilariopsis;Fragilariopsis_cylindrus
+euk_asv_011;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Chaetoceros;Chaetoceros_neogracilis
+euk_asv_012;Eukaryota;Ciliophora;Phyllopharyngea;Suctoria;Ephelotidae;Ephelota;Ephelota_mammillata
+euk_asv_013;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Thalassiosira;Thalassiosira uc
+euk_asv_014;Eukaryota;Radiolaria;Acantharea;Chaunacanthida;Chaunacanthida uc;Chaunacanthida uc;Chaunacanthida uc_sp.
+euk_asv_015;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_016;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_017;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_018;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Pseudo-nitzschia;Pseudo-nitzschia_sp.
+euk_asv_019;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_helveticum
+euk_asv_020;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_021;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Peridiniales uc;Peridiniales uc;Peridiniales uc
+euk_asv_022;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Thalassiosira;Thalassiosira uc
+euk_asv_023;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_M;Strombidiidae_M uc;Strombidiidae_M uc_sp.
+euk_asv_024;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Chaetoceros;Chaetoceros_socialis
+euk_asv_025;Eukaryota;Radiolaria;RAD-C;RAD-C uc;RAD-C uc;RAD-C uc;RAD-C uc_sp.
+euk_asv_026;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Leegaardiellidae_B;Leegaardiella;Leegaardiella_sp.
+euk_asv_027;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Araphid-pennate;Grammonema;Grammonema_striatula
+euk_asv_028;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-4;Dino-I-4 uc;Dino-I-4 uc_sp.
+euk_asv_029;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Fragilariopsis;Fragilariopsis_sublineata
+euk_asv_030;Eukaryota;Chlorophyta;Chloropicophyceae;Chloropicales;Chloropicaceae;Chloroparvula;Chloroparvula_pacifica
+euk_asv_031;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Chytriodiniaceae;Chytriodinium;Chytriodinium_roseum
+euk_asv_032;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Chaetoceros;Chaetoceros_debilis_1
+euk_asv_033;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Peridiniales uc;Peridiniales uc;Peridiniales uc
+euk_asv_034;Eukaryota;Radiolaria;RAD-C;RAD-C uc;RAD-C uc;RAD-C uc;RAD-C uc_sp.
+euk_asv_035;Eukaryota;Haptophyta;Prymnesiophyceae;Isochrysidales;Noelaerhabdaceae;Noelaerhabdaceae uc;Noelaerhabdaceae uc
+euk_asv_036;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-23;Dino-II-23 uc;Dino-II-23 uc_sp.
+euk_asv_037;Eukaryota;Pseudofungi;MAST-1;MAST-1A;MAST-1A uc;MAST-1A uc;MAST-1A uc_sp.
+euk_asv_038;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Eucampia;Eucampia_sp.
+euk_asv_039;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_M;Strombidium_M;Strombidium_M uc
+euk_asv_040;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_041;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Coscinodiscophyceae;Rhizosolenia;Rhizosolenia_imbricata_var_shrubsolei
+euk_asv_042;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Peridiniales uc;Peridiniales uc;Peridiniales uc
+euk_asv_043;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-4;Dino-I-4 uc;Dino-I-4 uc_sp.
+euk_asv_044;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_fusiforme
+euk_asv_045;Eukaryota;Pseudofungi;MAST-1;MAST-1C;MAST-1C uc;MAST-1C uc;MAST-1C uc_sp.
+euk_asv_046;Eukaryota;Pseudofungi;Pirsonia_Clade;PirsoniaX;PirsoniaXX;Pirsonia uc;Pirsonia uc_sp.
+euk_asv_047;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Naviculales;Naviculales_sp.
+euk_asv_048;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_049;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Tovelliaceae;Woloszynskia;Woloszynskia_sp.
+euk_asv_050;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Thalassiosira;Thalassiosira_sp.
+euk_asv_051;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Chaetoceros;Chaetoceros_danicus
+euk_asv_052;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Raphid-pennate uc;Raphid-pennate uc
+euk_asv_053;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_054;Eukaryota;Pseudofungi;MAST-1;MAST-1A;MAST-1A uc;MAST-1A uc;MAST-1A uc_sp.
+euk_asv_055;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_G;Strombidiidae_G uc;Strombidiidae_G uc_sp.
+euk_asv_056;Eukaryota;Ciliophora;Spirotrichea;Spirotrichea uc;Spirotrichea uc;Spirotrichea uc;Spirotrichea uc
+euk_asv_057;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Naviculales;Naviculales_sp.
+euk_asv_058;Eukaryota;Ciliophora;Phyllopharyngea;Suctoria;Ephelotidae;Ephelota;Ephelota uc
+euk_asv_059;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Tovelliaceae;Woloszynskia;Woloszynskia_halophila
+euk_asv_060;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_061;Eukaryota;Cryptophyta;Cryptophyceae;Cryptomonadales;Cryptomonadales uc;Plagioselmis;Plagioselmis_prolonga
+euk_asv_062;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_spirale
+euk_asv_063;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_064;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_helveticum
+euk_asv_065;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium uc
+euk_asv_066;Eukaryota;Pseudofungi;MAST-1;MAST-1C;MAST-1C uc;MAST-1C uc;MAST-1C uc_sp.
+euk_asv_067;Eukaryota;Ochrophyta;Chrysophyceae;Chrysophyceae uc;Chrysophyceae H;Chrysophyceae H uc;Chrysophyceae H uc_sp.
+euk_asv_068;Eukaryota;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc
+euk_asv_069;Eukaryota;Choanoflagellida;Choanoflagellatea;Acanthoecida;Stephanoecidae H;Stephanoecidae H uc;Stephanoecidae H uc_sp.
+euk_asv_070;Eukaryota;Sagenista;Labyrinthulomycetes;Labyrinthulales;Labyrinthulaceae;Aplanochytrium;Aplanochytrium_sp.
+euk_asv_071;Eukaryota;Cercozoa;Filosa-Thecofilosea;Ebriida;TAGIRI1-lineage;TAGIRI1-lineage uc;TAGIRI1-lineage uc_sp.
+euk_asv_072;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_dominans
+euk_asv_073;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_074;Eukaryota;Radiolaria;RAD-B;RAD-B uc;RAD-B-Group-IV;RAD-B-Group-IV uc;RAD-B-Group-IV uc_sp.
+euk_asv_075;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_helveticum
+euk_asv_076;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_077;Eukaryota;Cercozoa;Filosa-Thecofilosea;Cryomonadida;Protaspa-lineage;Protaspa-lineage uc;Protaspa-lineage uc_sp.
+euk_asv_078;Eukaryota;Cercozoa;Filosa-Thecofilosea;Ebriida;TAGIRI1-lineage;TAGIRI1-lineage uc;TAGIRI1-lineage uc_sp.
+euk_asv_079;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_080;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Thalassiosira;Thalassiosira_sp.
+euk_asv_081;Eukaryota;Ochrophyta;MOCH-2;MOCH-2 uc;MOCH-2 uc;MOCH-2 uc;MOCH-2 uc_sp.
+euk_asv_082;Eukaryota;Ciliophora;Phyllopharyngea;Suctoria;Ephelotidae;Ephelota;Ephelota_gemmipara
+euk_asv_083;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Odontella;Odontella_aurita
+euk_asv_084;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-6;Dino-II-6 uc;Dino-II-6 uc_sp.
+euk_asv_085;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Bacillaria;Bacillaria_paxillifer
+euk_asv_086;Eukaryota;Dinoflagellata;Dinophyceae;Suessiales;Suessiaceae;Protodinium;Protodinium_simplex
+euk_asv_087;Eukaryota;Radiolaria;RAD-C;RAD-C uc;RAD-C uc;RAD-C uc;RAD-C uc_sp.
+euk_asv_088;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-3;Dino-I-3 uc;Dino-I-3 uc_sp.
+euk_asv_089;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_090;Eukaryota;Pseudofungi;MAST-1;MAST-1B;MAST-1B uc;MAST-1B uc;MAST-1B uc_sp.
+euk_asv_091;Eukaryota;Picozoa;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc_sp.
+euk_asv_092;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-15;Dino-II-15 uc;Dino-II-15 uc_sp.
+euk_asv_093;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Leegaardiellidae_B;Leegaardiella;Leegaardiella_sp.
+euk_asv_094;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_H;Strombidiidae_H uc;Strombidiidae_H uc_sp.
+euk_asv_095;Eukaryota;Ciliophora;Phyllopharyngea;Cyrtophoria_1;PHYLL_4;PHYLL_4 uc;PHYLL_4 uc_sp.
+euk_asv_096;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-4;Dino-I-4 uc;Dino-I-4 uc_sp.
+euk_asv_097;Eukaryota;Telonemia;Telonemia uc;Telonemia uc;Telonemia-Group-1;Telonemia-Group-1 uc;Telonemia-Group-1 uc_sp.
+euk_asv_098;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Blastodiniaceae;Blastodinium;Blastodinium_mangini
+euk_asv_099;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_100;Eukaryota;Picozoa;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc_sp.
+euk_asv_101;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Araphid-pennate;Synedra;Synedra_hyperborea
+euk_asv_102;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Mediophyceae uc;Mediophyceae uc
+euk_asv_103;Eukaryota;Haptophyta;Prymnesiophyceae;Phaeocystales;Phaeocystaceae;Phaeocystis;Phaeocystis_antarctica
+euk_asv_104;Eukaryota;Chlorophyta;Chloropicophyceae;Chloropicales;Chloropicaceae;Chloroparvula;Chloroparvula_pacifica
+euk_asv_105;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-4;Dino-I-4 uc;Dino-I-4 uc_sp.
+euk_asv_106;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc_sp.
+euk_asv_107;Eukaryota;Ciliophora;Oligohymenophorea;Apostomatia;Opalinopsidae;Chromidina;Chromidina_sp.
+euk_asv_108;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_109;Eukaryota;Centroheliozoa;Centroheliozoa uc;Pterocystida;Pterocystida uc;Pterocystida uc;Pterocystida uc
+euk_asv_110;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_111;Eukaryota;Ciliophora;Spirotrichea;Tintinnida;Xystonellidae;Dadayiella;Dadayiella_ganymedes
+euk_asv_112;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_113;Eukaryota;Ochrophyta;Pelagophyceae;Pelagomonadales;Pelagomonadaceae;Pelagococcus;Pelagococcus_sp.
+euk_asv_114;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Heterocapsaceae;Heterocapsa;Heterocapsa_nei/rotundata
+euk_asv_115;Eukaryota;Cercozoa;Filosa-Thecofilosea;Cryomonadida;Cryothecomonas-lineage;Cryothecomonas-lineage uc;Cryothecomonas-lineage uc_sp.
+euk_asv_116;Eukaryota;Haptophyta;Prymnesiophyceae;Phaeocystales;Phaeocystaceae;Phaeocystis;Phaeocystis_cordata
+euk_asv_117;Eukaryota;Ochrophyta;Dictyochophyceae;Dictyochophyceae uc;Dictyochales;Dictyocha;Dictyocha_speculum
+euk_asv_118;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniales uc;Gymnodiniales uc;Gymnodiniales uc
+euk_asv_119;Eukaryota;Dinoflagellata;Dinophyceae;Prorocentrales;Prorocentraceae;Prorocentrum;Prorocentrum_sp.
+euk_asv_120;Eukaryota;Radiolaria;RAD-B;RAD-B uc;RAD-B-Group-I;RAD-B-Group-I uc;RAD-B-Group-I uc_sp.
+euk_asv_121;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Heterocapsaceae;Heterocapsa;Heterocapsa uc
+euk_asv_122;Eukaryota;Chlorophyta;Mamiellophyceae;Mamiellales;Mamiellaceae;Micromonas;Micromonas_polaris
+euk_asv_123;Eukaryota;Chlorophyta;Chlorophyceae;Chlamydomonadales;Chlamydomonadales uc;Carteria;Carteria_sp.
+euk_asv_124;Eukaryota;Cercozoa;Filosa-Thecofilosea;Cryomonadida;Cryothecomonas-lineage;Cryothecomonas;Cryothecomonas_aestivalis
+euk_asv_125;Eukaryota;Dinoflagellata;Dinophyceae;Suessiales;Suessiaceae;Pelagodinium;Pelagodinium_beii
+euk_asv_126;Eukaryota;Opalozoa;MAST-3;MAST-3D;MAST-3D uc;MAST-3D uc;MAST-3D uc_sp.
+euk_asv_127;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Chrysochromulinaceae;Chrysochromulina;Chrysochromulina_sp.
+euk_asv_128;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Bacillaria;Bacillaria_paxillifer
+euk_asv_129;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Leegaardiellidae_B;Leegaardiella;Leegaardiella_sp.
+euk_asv_130;Eukaryota;Picozoa;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc_sp.
+euk_asv_131;Eukaryota;Chlorophyta;Mamiellophyceae;Mamiellales;Mamiellaceae;Micromonas;Micromonas_commoda_A2
+euk_asv_132;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_133;Eukaryota;Ciliophora;Spirotrichea;Tintinnida;Ptychocylididae;Ptychocylis;Ptychocylis_sp.
+euk_asv_134;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-3;Dino-I-3 uc;Dino-I-3 uc_sp.
+euk_asv_135;Eukaryota;Ochrophyta;Bolidophyceae;Parmales;Triparmaceae;Triparma;Triparma_pacifica
+euk_asv_136;Eukaryota;Dinoflagellata;Dinophyceae;Gonyaulacales;Goniodomataceae;Alexandrium;Alexandrium_ostenfeldii
+euk_asv_137;Eukaryota;Ciliophora;Phyllopharyngea;Suctoria;Suctoria uc;Suctoria uc;Suctoria uc_sp.
+euk_asv_138;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_139;Eukaryota;Radiolaria;RAD-B;RAD-B uc;RAD-B-Group-II;RAD-B-Group-II uc;RAD-B-Group-II uc_sp.
+euk_asv_140;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_141;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Pseudo-nitzschia;Pseudo-nitzschia uc
+euk_asv_142;Eukaryota;Cryptophyta;Cryptophyceae;Cryptomonadales;Cryptomonadales uc;Teleaulax;Teleaulax_gracilis
+euk_asv_143;Eukaryota;Opalozoa;MAST-3;MAST-3E;MAST-3E uc;MAST-3E uc;MAST-3E uc_sp.
+euk_asv_144;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_145;Eukaryota;Dinoflagellata;Dinophyceae;Gonyaulacales;Ceratiaceae;Tripos;Tripos uc
+euk_asv_146;Eukaryota;Dinoflagellata;Dinoflagellata uc;Dinoflagellata uc;Dinoflagellata uc;Dinoflagellata uc;Dinoflagellata uc
+euk_asv_147;Eukaryota;Cercozoa;Filosa-Thecofilosea;Ebriida;TAGIRI1-lineage;TAGIRI1-lineage uc;TAGIRI1-lineage uc_sp.
+euk_asv_148;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-14;Dino-II-14 uc;Dino-II-14 uc_sp.
+euk_asv_149;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniales uc;Gymnodiniales uc;Gymnodiniales uc
+euk_asv_150;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-8;Dino-I-8 uc;Dino-I-8 uc_sp.
+euk_asv_151;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_L;Strombidiidae_L uc;Strombidiidae_L uc_sp.
+euk_asv_152;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_H;Strombidiidae_H uc;Strombidiidae_H uc_sp.
+euk_asv_153;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Coscinodiscophyceae;Corethron;Corethron_hystrix
+euk_asv_154;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Araphid-pennate;Tabularia;Tabularia_tabulata
+euk_asv_155;Eukaryota;Dinoflagellata;Dinophyceae;Gonyaulacales;Gonyaulacaceae;Gonyaulax;Gonyaulax_sp.
+euk_asv_156;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Pseudo-nitzschia;Pseudo-nitzschia_seriata
+euk_asv_157;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gymnodiniaceae uc;Gymnodiniaceae uc
+euk_asv_158;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gymnodinium;Gymnodinium_sp.
+euk_asv_159;Eukaryota;Choanoflagellida;Choanoflagellatea;Acanthoecida;Stephanoecidae D;Stephanoecidae D uc;Stephanoecidae D uc_sp.
+euk_asv_160;Eukaryota;Ciliophora;Phyllopharyngea;Cyrtophoria_1;Pithitidae;Pithites;Pithites_vorax
+euk_asv_161;Eukaryota;Ochrophyta;Chrysophyceae;Chrysophyceae uc;Chrysophyceae C;Chrysophyceae C uc;Chrysophyceae C uc_sp.
+euk_asv_162;Eukaryota;Picozoa;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc_sp.
+euk_asv_163;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_H;Strombidiidae_H uc;Strombidiidae_H uc_sp.
+euk_asv_164;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-14;Dino-II-14 uc;Dino-II-14 uc_sp.
+euk_asv_165;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Strobilidiidae_I;Strobilidiidae_I uc;Strobilidiidae_I uc
+euk_asv_166;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Coscinodiscophyceae;Actinocyclus;Actinocyclus_curvatulus
+euk_asv_167;Eukaryota;Haptophyta;Haptophyta_Clade_HAP3;Haptophyta_Clade_HAP3 uc;Haptophyta_Clade_HAP3 uc;Haptophyta_Clade_HAP3 uc;Haptophyta_Clade_HAP3 uc_sp.
+euk_asv_168;Eukaryota;Centroheliozoa;Centroheliozoa uc;Pterocystida;Pterocystida uc;Pterocystida uc;Pterocystida uc_sp.
+euk_asv_169;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-2;Dino-I-2 uc;Dino-I-2 uc_sp.
+euk_asv_170;Eukaryota;Cercozoa;Filosa-Thecofilosea;Ebriida;TAGIRI1-lineage;TAGIRI1-lineage uc;TAGIRI1-lineage uc_sp.
+euk_asv_171;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_172;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-6;Dino-II-6 uc;Dino-II-6 uc_sp.
+euk_asv_173;Eukaryota;Dinoflagellata;Dinophyceae;Torodiniales;Torodiniaceae;Torodinium;Torodinium_robustum
+euk_asv_174;Eukaryota;Apicomplexa;Gregarinomorphea;Eugregarinorida;Lecudinidae;Lecudinidae uc;Lecudinidae uc
+euk_asv_175;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_sp.
+euk_asv_176;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Leegaardiellidae_B;Leegaardiella;Leegaardiella_sp.
+euk_asv_177;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_helveticum
+euk_asv_178;Eukaryota;Sagenista;Labyrinthulomycetes;Labyrinthulales;Labyrinthulaceae;Aplanochytrium;Aplanochytrium_sp.
+euk_asv_179;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_H;Strombidiidae_H uc;Strombidiidae_H uc_sp.
+euk_asv_180;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Fragilariopsis;Fragilariopsis_cylindrus
+euk_asv_181;Eukaryota;Opalozoa;MAST-3;MAST-3L;MAST-3L uc;MAST-3L uc;MAST-3L uc_sp.
+euk_asv_182;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Balechina;Balechina_pachydermata
+euk_asv_183;Eukaryota;Picozoa;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc_sp.
+euk_asv_184;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-3;Dino-I-3 uc;Dino-I-3 uc_sp.
+euk_asv_185;Eukaryota;Ciliophora;Spirotrichea;Hypotrichia;Holostichidae;Holosticha;Holosticha_diademata
+euk_asv_186;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gymnodinium;Gymnodinium_sp.
+euk_asv_187;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Chaetoceros;Chaetoceros_brevis_3
+euk_asv_188;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-21;Dino-II-21 uc;Dino-II-21 uc_sp.
+euk_asv_189;Eukaryota;Ochrophyta;Pelagophyceae;Pelagomonadales;Pelagomonadaceae;Pelagomonadaceae_clade_A;Pelagomonadaceae_clade_A_sp.
+euk_asv_190;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Minidiscus;Minidiscus_trioculatus
+euk_asv_191;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Chaetoceros;Chaetoceros uc
+euk_asv_192;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_193;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_194;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniales uc;Gymnodiniales uc;Gymnodiniales uc
+euk_asv_195;Eukaryota;Pseudofungi;MAST-2;MAST-2D;MAST-2D uc;MAST-2D uc;MAST-2D uc_sp.
+euk_asv_196;Eukaryota;Ochrophyta;Chrysophyceae;Chrysophyceae uc;Chrysophyceae C;Chrysophyceae C uc;Chrysophyceae C uc_sp.
+euk_asv_197;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_198;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Entomoneis;Entomoneis uc
+euk_asv_199;Eukaryota;Radiolaria;RAD-B;RAD-B uc;RAD-B-Group-IV;RAD-B-Group-IV uc;RAD-B-Group-IV uc_sp.
+euk_asv_200;Eukaryota;Radiolaria;RAD-B;RAD-B uc;RAD-B-Group-IV;RAD-B-Group-IV uc;RAD-B-Group-IV uc_sp.
+euk_asv_201;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_202;Eukaryota;Opalozoa;MAST-3;MAST-3D;MAST-3D uc;MAST-3D uc;MAST-3D uc_sp.
+euk_asv_203;Eukaryota;Chlorophyta;Prasino-Clade-V;Pseudoscourfieldiales;Pycnococcaceae;Pycnococcaceae uc;Pycnococcaceae uc_sp.
+euk_asv_204;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_205;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-3;Dino-I-3 uc;Dino-I-3 uc_sp.
+euk_asv_206;Eukaryota;Chlorophyta;Mamiellophyceae;Mamiellales;Bathycoccaceae;Bathycoccus;Bathycoccus_prasinos
+euk_asv_207;Eukaryota;Choanoflagellida;Choanoflagellatea;Acanthoecida;Stephanoecidae D;Stephanoecidae D uc;Stephanoecidae D uc_sp.
+euk_asv_208;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-9;Dino-II-9 uc;Dino-II-9 uc_sp.
+euk_asv_209;Eukaryota;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc
+euk_asv_210;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-16;Dino-II-16 uc;Dino-II-16 uc_sp.
+euk_asv_211;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-6;Dino-II-6 uc;Dino-II-6 uc_sp.
+euk_asv_212;Eukaryota;Cercozoa;Phaeodarea;Phaeodarea uc;Phaeodarea uc;Phaeodarea uc;Phaeodarea uc
+euk_asv_213;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_Q;Strombidiidae_Q uc;Strombidiidae_Q uc_sp.
+euk_asv_214;Eukaryota;Dinoflagellata;Dinophyceae;Prorocentrales;Prorocentraceae;Prorocentrum;Prorocentrum_sp.
+euk_asv_215;Eukaryota;Chlorophyta;Mamiellophyceae;Mamiellales;Mamiellaceae;Mantoniella;Mantoniella_squamata
+euk_asv_216;Eukaryota;Pseudofungi;MAST-1;MAST-1C;MAST-1C uc;MAST-1C uc;MAST-1C uc_sp.
+euk_asv_217;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Bacillariophyta uc uc;Bacillariophyta uc uc;Bacillariophyta uc uc
+euk_asv_218;Eukaryota;Ochrophyta;Pelagophyceae;Pelagophyceae uc;Pelagophyceae uc;Pelagophyceae uc;Pelagophyceae uc_sp.
+euk_asv_219;Eukaryota;Chlorophyta;Pyramimonadales;Pyramimonadales uc;Pyramimonadales uc;Pyramimonas;Pyramimonas_gelidicola
+euk_asv_220;Eukaryota;Stramenopiles uc;Stramenopiles uc;Stramenopiles uc;Stramenopiles uc;Stramenopiles ucX;Stramenopiles ucX_sp.
+euk_asv_221;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_222;Eukaryota;Cercozoa;Filosa-Thecofilosea;Cryomonadida;Cryothecomonas-lineage;Cryothecomonas-lineage uc;Cryothecomonas-lineage uc_sp.
+euk_asv_223;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-2;Dino-I-2 uc;Dino-I-2 uc_sp.
+euk_asv_224;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-7;Dino-I-7 uc;Dino-I-7 uc_sp.
+euk_asv_225;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gymnodinium;Gymnodinium_sp.
+euk_asv_226;Eukaryota;Radiolaria;RAD-C;RAD-C uc;RAD-C uc;RAD-C uc;RAD-C uc_sp.
+euk_asv_227;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_228;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_229;Eukaryota;Choanoflagellida;Choanoflagellatea;Acanthoecida;Stephanoecidae H;Diaphanoeca;Diaphanoeca_grandis
+euk_asv_230;Eukaryota;Sagenista;MAST-8;MAST-8A;MAST-8A uc;MAST-8A uc;MAST-8A uc_sp.
+euk_asv_231;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Strobilidiidae_A;Strobilidiidae_A uc;Strobilidiidae_A uc_sp.
+euk_asv_232;Eukaryota;Opalozoa;MAST-3;MAST-3I;MAST-3I uc;MAST-3I uc;MAST-3I uc_sp.
+euk_asv_233;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Prymnesiales uc;Prymnesiales uc;Prymnesiales uc
+euk_asv_234;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Nitzschia;Nitzschia_sp.
+euk_asv_235;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_236;Eukaryota;Dinoflagellata;Dinophyceae;Prorocentrales;Prorocentraceae;Prorocentrum;Prorocentrum_sp.
+euk_asv_237;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_238;Eukaryota;Opalozoa;MAST-3;MAST-3F;MAST-3F uc;MAST-3F uc;MAST-3F uc_sp.
+euk_asv_239;Eukaryota;Picozoa;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc_sp.
+euk_asv_240;Eukaryota;Ciliophora;Spirotrichea;Tintinnida;Xystonellidae;Xystonellidae uc;Xystonellidae uc
+euk_asv_241;Eukaryota;Dinoflagellata;Dinophyceae;Dinophysiales;Dinophysiaceae;Dinophysis;Dinophysis_acuminata
+euk_asv_242;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Leegaardiellidae_B;Leegaardiella;Leegaardiella_sp.
+euk_asv_243;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_244;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_245;Eukaryota;Haptophyta;Prymnesiophyceae;Phaeocystales;Phaeocystaceae;Phaeocystis;Phaeocystis_antarctica
+euk_asv_246;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_H;Strombidiidae_H uc;Strombidiidae_H uc_sp.
+euk_asv_247;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_248;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_249;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Raphid-pennate uc;Raphid-pennate uc
+euk_asv_250;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_251;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_helveticum
+euk_asv_252;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Strobilidiidae_I;Pelagostrobilidium;Pelagostrobilidium_sp.
+euk_asv_253;Eukaryota;Ochrophyta;Dictyochophyceae;Dictyochophyceae uc;Pedinellales;Pedinellales uc;Pedinellales uc_sp.
+euk_asv_254;Eukaryota;Choanoflagellida;Choanoflagellatea;Acanthoecida;Acanthoecida uc;Acanthoecida uc;Acanthoecida uc_sp.
+euk_asv_255;Eukaryota;Ciliophora;Spirotrichea;Tintinnida;Xystonellidae;Xystonellidae uc;Xystonellidae uc
+euk_asv_256;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-Group-II uc;Dino-Group-II uc;Dino-Group-II uc_sp.
+euk_asv_257;Eukaryota;Stramenopiles uc;Stramenopiles uc;Stramenopiles uc;Stramenopiles uc;Stramenopiles ucX;Stramenopiles ucX_sp.
+euk_asv_258;Eukaryota;Telonemia;Telonemia uc;Telonemia uc;Telonemia-Group-2;Telonemia-Group-2 uc;Telonemia-Group-2 uc_sp.
+euk_asv_259;Eukaryota;Sagenista;MAST-7;MAST-7A;MAST-7A uc;MAST-7A uc;MAST-7A uc_sp.
+euk_asv_260;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gymnodinium;Gymnodinium_dorsalisulcum
+euk_asv_261;Eukaryota;Haptophyta;Prymnesiophyceae;Phaeocystales;Phaeocystaceae;Phaeocystis;Phaeocystis_sp.
+euk_asv_262;Eukaryota;Picozoa;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc_sp.
+euk_asv_263;Eukaryota;Ciliophora;Phyllopharyngea;Suctoria;Suctoria uc;Suctoria uc;Suctoria uc_sp.
+euk_asv_264;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_265;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_helveticum
+euk_asv_266;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_267;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gymnodiniaceae uc;Gymnodiniaceae uc
+euk_asv_268;Eukaryota;Opalozoa;MAST-3;MAST-3F;MAST-3F uc;MAST-3F uc;MAST-3F uc_sp.
+euk_asv_269;Eukaryota;Chlorophyta;Palmophyllophyceae;Prasinococcales;Prasinococcales-Clade-B;Prasinoderma;Prasinoderma_sp.
+euk_asv_270;Eukaryota;Ochrophyta;Dictyochophyceae;Dictyochophyceae uc;Florenciellales;Florenciella;Florenciella_parvula
+euk_asv_271;Eukaryota;Dinoflagellata;Dinophyceae;Prorocentrales;Prorocentraceae;Prorocentrum;Prorocentrum_sp.
+euk_asv_272;Eukaryota;Ochrophyta;Pelagophyceae;Pelagomonadales;Pelagomonadaceae;Pelagomonas;Pelagomonas_calceolata
+euk_asv_273;Eukaryota;Pseudofungi;MAST-1;MAST-1C;MAST-1C uc;MAST-1C uc;MAST-1C uc_sp.
+euk_asv_274;Eukaryota;Ochrophyta;Chrysophyceae;Chrysophyceae uc;Chrysophyceae I;Chrysophyceae I uc;Chrysophyceae I uc_sp.
+euk_asv_275;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Abedinium;Abedinium_dasypus
+euk_asv_276;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-5;Dino-II-5 uc;Dino-II-5 uc_sp.
+euk_asv_277;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gymnodinium;Gymnodinium_sp.
+euk_asv_278;Eukaryota;Fungi;Chytridiomycota;Chytridiomycotina;Chytridiomycetes;Chytridiomycetes uc;Chytridiomycetes uc_sp.
+euk_asv_279;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Leegaardiellidae_B;Leegaardiella;Leegaardiella_sp.
+euk_asv_280;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Chytriodiniaceae;Chytriodinium;Chytriodinium_roseum
+euk_asv_281;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_282;Eukaryota;Chlorophyta;Palmophyllophyceae;Prasinococcales;Prasinococcales-Clade-B;Prasinoderma;Prasinoderma_sp.
+euk_asv_283;Eukaryota;Sagenista;MAST-7;MAST-7A;MAST-7A uc;MAST-7A uc;MAST-7A uc_sp.
+euk_asv_284;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-16;Dino-II-16 uc;Dino-II-16 uc_sp.
+euk_asv_285;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Leegaardiellidae_B;Leegaardiella;Leegaardiella_sp.
+euk_asv_286;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Leegaardiellidae_B;Leegaardiella;Leegaardiella_sp.
+euk_asv_287;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Chrysochromulinaceae;Chrysochromulina;Chrysochromulina_sp.
+euk_asv_288;Eukaryota;Ciliophora;Spirotrichea;Strombidiida_B;Strombidiida_B uc;Strombidiida_B uc;Strombidiida_B uc_sp.
+euk_asv_289;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_290;Eukaryota;Ochrophyta;Pelagophyceae;Pelagophyceae uc;Pelagophyceae uc;Pelagophyceae uc;Pelagophyceae uc_sp.
+euk_asv_291;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Navicula;Navicula_sp.
+euk_asv_292;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_B;Strombidiidae_B uc;Strombidiidae_B uc_sp.
+euk_asv_293;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Navicula;Navicula_sp.
+euk_asv_294;Eukaryota;Radiolaria;Acantharea;Arthracanthida-Symphyacanthida;Arthracanthida-Symphyacanthida uc;Acanthostaurus;Acanthostaurus_purpurascens
+euk_asv_295;Eukaryota;Mesomycetozoa;Ichthyosporea;Ichthyosphonida;Abeoformidae_Group_MAIP_2;Abeoformidae_Group_MAIP_2 uc;Abeoformidae_Group_MAIP_2 uc_sp.
+euk_asv_296;Eukaryota;Radiolaria;RAD-B;RAD-B uc;RAD-B-Group-IV;RAD-B-Group-IV uc;RAD-B-Group-IV uc_sp.
+euk_asv_297;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniales uc;Gymnodiniales uc;Gymnodiniales uc
+euk_asv_298;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gymnodinium;Gymnodinium_sp.
+euk_asv_299;Eukaryota;Radiolaria;RAD-B;RAD-B uc;RAD-B-Group-I;RAD-B-Group-I uc;RAD-B-Group-I uc_sp.
+euk_asv_300;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-5;Dino-II-5 uc;Dino-II-5 uc_sp.
+euk_asv_301;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Chaetoceros;Chaetoceros_sp.
+euk_asv_302;Eukaryota;Choanoflagellida;Choanoflagellatea;Acanthoecida;Stephanoecidae D;Stephanoecidae D uc;Stephanoecidae D uc_sp.
+euk_asv_303;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Tontoniidae_B;Tontoniidae_B uc;Tontoniidae_B uc_sp.
+euk_asv_304;Eukaryota;Cercozoa;Filosa-Thecofilosea;Cryomonadida;Protaspa-lineage;Protaspa-lineage uc;Protaspa-lineage uc_sp.
+euk_asv_305;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_helveticum
+euk_asv_306;Eukaryota;Pseudofungi;MAST-1;MAST-1C;MAST-1C uc;MAST-1C uc;MAST-1C uc_sp.
+euk_asv_307;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_308;Eukaryota;Radiolaria;RAD-A;RAD-A uc;RAD-A uc;RAD-A uc;RAD-A uc_sp.
+euk_asv_309;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_310;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Thoracosphaeraceae;Thoracosphaeraceae uc;Thoracosphaeraceae uc_sp.
+euk_asv_311;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_312;Eukaryota;Choanoflagellida;Choanoflagellatea;Acanthoecida;Stephanoecidae D;Stephanoecidae D uc;Stephanoecidae D uc_sp.
+euk_asv_313;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-13;Dino-II-13 uc;Dino-II-13 uc_sp.
+euk_asv_314;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Coscinodiscophyceae;Rhizosolenia;Rhizosolenia_formosa
+euk_asv_315;Eukaryota;Chlorophyta;Pyramimonadales;Pyramimonadales uc;Pyramimonadales uc;Pterosperma;Pterosperma_sp.
+euk_asv_316;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Bacillaria;Bacillaria_paxillifer
+euk_asv_317;Eukaryota;Radiolaria;RAD-B;RAD-B uc;RAD-B-Group-IV;Sticholonche;Sticholonche_sp.
+euk_asv_318;Eukaryota;Cercozoa;Filosa-Sarcomonadea;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas_crassicauda
+euk_asv_319;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae;Strombidiidae uc;Strombidiidae uc
+euk_asv_320;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_321;Eukaryota;Pseudofungi;MAST-1;MAST-1C;MAST-1C uc;MAST-1C uc;MAST-1C uc_sp.
+euk_asv_322;Eukaryota;Haptophyta;Haptophyta uc;Haptophyta uc;Haptophyta uc;Haptophyta uc;Haptophyta uc_sp.
+euk_asv_323;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_helveticum
+euk_asv_324;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Thoracosphaeraceae;Pentapharsodinium;Pentapharsodinium_sp.
+euk_asv_325;Eukaryota;Opalozoa;MAST-3;MAST-3I;MAST-3I uc;MAST-3I uc;MAST-3I uc_sp.
+euk_asv_326;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_327;Eukaryota;Ciliophora;Spirotrichea;Tintinnida;TIN_05;Tintinnopsis_05;Tintinnopsis_tubulosoides
+euk_asv_328;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Leegaardiellidae_B;Leegaardiella;Leegaardiella_sp.
+euk_asv_329;Eukaryota;Pseudofungi;MAST-2;MAST-2C;MAST-2C uc;MAST-2C uc;MAST-2C uc_sp.
+euk_asv_330;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-III;Dino-Group-III uc;Dino-Group-III uc;Dino-Group-III uc_sp.
+euk_asv_331;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gymnodinium;Gymnodinium_sp.
+euk_asv_332;Eukaryota;Sagenista;MAST-8;MAST-8D;MAST-8D uc;MAST-8D uc;MAST-8D uc_sp.
+euk_asv_333;Eukaryota;Cercozoa;Chlorarachniophyceae;Chlorarachniophyceae uc;NPK2-lineage;NPK2-lineage uc;NPK2-lineage uc_sp.
+euk_asv_334;Eukaryota;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc
+euk_asv_335;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-20;Dino-II-20 uc;Dino-II-20 uc_sp.
+euk_asv_336;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-15;Dino-II-15 uc;Dino-II-15 uc_sp.
+euk_asv_337;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_338;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc_sp.
+euk_asv_339;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_R;Strombidiidae_R uc;Strombidiidae_R uc_sp.
+euk_asv_340;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_341;Eukaryota;Ochrophyta;Chrysophyceae;Chrysophyceae uc;Chrysophyceae F;Chrysophyceae F uc;Chrysophyceae F uc_sp.
+euk_asv_342;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_heterogrammum
+euk_asv_343;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-30;Dino-II-30 uc;Dino-II-30 uc_sp.
+euk_asv_344;Eukaryota;Ciliophora;Spirotrichea;Hypotrichia;Hypotrichia uc;Bergeriella;Bergeriella_ovata
+euk_asv_345;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-3;Dino-I-3 uc;Dino-I-3 uc_sp.
+euk_asv_346;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Bacillaria;Bacillaria_paxillifer
+euk_asv_347;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_helveticum
+euk_asv_348;Eukaryota;Ochrophyta;Pelagophyceae;Pelagomonadales;Pelagomonadaceae;Aureococcus;Aureococcus_anophagefferens
+euk_asv_349;Eukaryota;Dinoflagellata;Dinophyceae;Gonyaulacales;Ceratiaceae;Tripos;Tripos_fusus
+euk_asv_350;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_351;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_352;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-2;Dino-I-2 uc;Dino-I-2 uc_sp.
+euk_asv_353;Eukaryota;Cercozoa;Filosa-Thecofilosea;Ebriida;Ebriidae;Ebria;Ebria_tripartita
+euk_asv_354;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gymnodinium;Gymnodinium_dorsalisulcum
+euk_asv_355;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_H;Strombidiidae_H uc;Strombidiidae_H uc_sp.
+euk_asv_356;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_M;Strombidium_M;Strombidium_M_sp.
+euk_asv_357;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-20;Dino-II-20 uc;Dino-II-20 uc_sp.
+euk_asv_358;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-23;Dino-II-23 uc;Dino-II-23 uc_sp.
+euk_asv_359;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Leegaardiellidae_B;Leegaardiella;Leegaardiella_sp.
+euk_asv_360;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_361;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-16;Dino-II-16 uc;Dino-II-16 uc_sp.
+euk_asv_362;Eukaryota;Haptophyta;Haptophyta uc;Haptophyta uc;Haptophyta uc;Haptophyta uc;Haptophyta uc_sp.
+euk_asv_363;Eukaryota;Telonemia;Telonemia uc;Telonemia uc;Telonemia-Group-2;Telonemia-Group-2 uc;Telonemia-Group-2 uc_sp.
+euk_asv_364;Eukaryota;Telonemia;Telonemia uc;Telonemia uc;Telonemia-Group-2;Telonemia-Group-2 uc;Telonemia-Group-2 uc_sp.
+euk_asv_365;Eukaryota;Chlorophyta;Pyramimonadales;Pyramimonadales uc;Pyramimonadales uc;Pterosperma;Pterosperma_cristatum
+euk_asv_366;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Abedinium;Abedinium_dasypus
+euk_asv_367;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-26;Dino-II-26 uc;Dino-II-26 uc_sp.
+euk_asv_368;Eukaryota;Choanoflagellida;Choanoflagellatea;Acanthoecida;Stephanoecidae D;Stephanoecidae D uc;Stephanoecidae D uc_sp.
+euk_asv_369;Eukaryota;Sagenista;Labyrinthulomycetes;Labyrinthulales;Labyrinthulaceae;Aplanochytrium;Aplanochytrium_sp.
+euk_asv_370;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-2;Dino-I-2 uc;Dino-I-2 uc_sp.
+euk_asv_371;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Amphidomataceae;Azadinium;Azadinium uc
+euk_asv_372;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_373;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_374;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc_sp.
+euk_asv_375;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Chaetoceros;Chaetoceros_rostratus
+euk_asv_376;Eukaryota;Telonemia;Telonemia uc;Telonemia uc;Telonemia-Group-2;Telonemia-Group-2 uc;Telonemia-Group-2 uc_sp.
+euk_asv_377;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Chrysochromulinaceae;Chrysochromulina;Chrysochromulina_sp.
+euk_asv_378;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_379;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_380;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-2;Dino-I-2 uc;Dino-I-2 uc_sp.
+euk_asv_381;Eukaryota;Chlorophyta;Palmophyllophyceae;Prasinococcales;Prasinococcales-Clade-B;Prasinoderma;Prasinoderma_singularis
+euk_asv_382;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Chaetoceros;Chaetoceros_cinctus
+euk_asv_383;Eukaryota;Dinoflagellata;Dinophyceae;Prorocentrales;Prorocentraceae;Prorocentrum;Prorocentrum_sp.
+euk_asv_384;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Porosira;Porosira_glacialis
+euk_asv_385;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_386;Eukaryota;Radiolaria;RAD-B;RAD-B uc;RAD-B-Group-I;RAD-B-Group-I uc;RAD-B-Group-I uc_sp.
+euk_asv_387;Eukaryota;Ciliophora;Spirotrichea;Strombidiida_F;Strombidiida_F uc;Strombidiida_F uc;Strombidiida_F uc_sp.
+euk_asv_388;Eukaryota;Sagenista;Labyrinthulomycetes;Labyrinthulales;Labyrinthulaceae;Labyrinthulaceae uc;Labyrinthulaceae uc_sp.
+euk_asv_389;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-20;Dino-II-20 uc;Dino-II-20 uc_sp.
+euk_asv_390;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_391;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_392;Eukaryota;Radiolaria;RAD-A;RAD-A uc;RAD-A uc;RAD-A uc;RAD-A uc_sp.
+euk_asv_393;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Leegaardiellidae_B;Leegaardiella;Leegaardiella_sp.
+euk_asv_394;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Navicula;Navicula_sp.
+euk_asv_395;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Prymnesiophyceae_Clade_B3;Prymnesiophyceae_Clade_B3 uc;Prymnesiophyceae_Clade_B3 uc_sp.
+euk_asv_396;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-14;Dino-II-14 uc;Dino-II-14 uc_sp.
+euk_asv_397;Eukaryota;Opalozoa;MAST-3;MAST-3I;MAST-3I uc;MAST-3I uc;MAST-3I uc_sp.
+euk_asv_398;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_399;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-14;Dino-II-14 uc;Dino-II-14 uc_sp.
+euk_asv_400;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_401;Eukaryota;Opalozoa;MAST-3;MAST-3D;MAST-3D uc;MAST-3D uc;MAST-3D uc_sp.
+euk_asv_402;Eukaryota;Choanoflagellida;Choanoflagellatea;Acanthoecida;Stephanoecidae D;Stephanoecidae D uc;Stephanoecidae D uc_sp.
+euk_asv_403;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_helveticum
+euk_asv_404;Eukaryota;Cercozoa;Filosa-Imbricatea;Filosa-Imbricatea uc;Filosa-Imbricatea uc;Filosa-Imbricatea uc;Filosa-Imbricatea uc
+euk_asv_405;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-22;Dino-II-22 uc;Dino-II-22 uc_sp.
+euk_asv_406;Eukaryota;Sagenista;Labyrinthulomycetes;Thraustochytriales;Thraustochytriaceae;Amphifilidae;Amphifilidae_sp.
+euk_asv_407;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-3;Dino-I-3 uc;Dino-I-3 uc_sp.
+euk_asv_408;Eukaryota;Cryptophyta;Cryptophyceae;Cryptomonadales;Cryptomonadales uc;Falcomonas;Falcomonas_daucoides
+euk_asv_409;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-9;Dino-II-9 uc;Dino-II-9 uc_sp.
+euk_asv_410;Eukaryota;Sagenista;Labyrinthulomycetes;Labyrinthulales;Labyrinthulaceae;Labyrinthulaceae uc;Labyrinthulaceae uc_sp.
+euk_asv_411;Eukaryota;Ochrophyta;Dictyochophyceae;Dictyochophyceae uc;Pedinellales;Pedinellales uc;Pedinellales uc_sp.
+euk_asv_412;Eukaryota;Choanoflagellida;Choanoflagellatea;Acanthoecida;Stephanoecidae D;Stephanoecidae D uc;Stephanoecidae D uc_sp.
+euk_asv_413;Eukaryota;Sagenista;MAST-9;MAST-9A;MAST-9A uc;MAST-9A uc;MAST-9A uc_sp.
+euk_asv_414;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_heterogrammum
+euk_asv_415;Eukaryota;Radiolaria;Polycystinea;Nassellaria;Nassellaria uc;Nassellaria uc;Nassellaria uc_sp.
+euk_asv_416;Eukaryota;Sagenista;MAST-4;MAST-4E;MAST-4E uc;MAST-4E uc;MAST-4E uc_sp.
+euk_asv_417;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-3;Dino-I-3 uc;Dino-I-3 uc_sp.
+euk_asv_418;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_419;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-20;Dino-II-20 uc;Dino-II-20 uc_sp.
+euk_asv_420;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-Group-II uc;Dino-Group-II uc;Dino-Group-II uc_sp.
+euk_asv_421;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_422;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Pseudo-nitzschia;Pseudo-nitzschia_delicatissima
+euk_asv_423;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Tontoniidae_A;Laboea;Laboea_strobila
+euk_asv_424;Eukaryota;Radiolaria;Acantharea;Arthracanthida-Symphyacanthida;Arthracanthida-Symphyacanthida uc;Arthracanthida-Symphyacanthida uc;Arthracanthida-Symphyacanthida uc_sp.
+euk_asv_425;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_426;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Thalassiosira;Thalassiosira_sp.
+euk_asv_427;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Mediophyceae uc;Mediophyceae uc_sp.
+euk_asv_428;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_429;Eukaryota;Pseudofungi;MAST-2;MAST-2D;MAST-2D uc;MAST-2D uc;MAST-2D uc_sp.
+euk_asv_430;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-6;Dino-II-6 uc;Dino-II-6 uc_sp.
+euk_asv_431;Eukaryota;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc
+euk_asv_432;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_433;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-29;Dino-II-29 uc;Dino-II-29 uc_sp.
+euk_asv_434;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Chrysochromulinaceae;Chrysochromulina;Chrysochromulina_sp.
+euk_asv_435;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-4;Dino-I-4 uc;Dino-I-4 uc_sp.
+euk_asv_436;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiophyceae_Clade_E;Prymnesiophyceae_Clade_E uc;Prymnesiophyceae_Clade_E uc;Prymnesiophyceae_Clade_E uc_sp.
+euk_asv_437;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Chrysochromulinaceae;Chrysochromulina;Chrysochromulina_sp.
+euk_asv_438;Eukaryota;Picozoa;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc_sp.
+euk_asv_439;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-Group-II uc;Dino-Group-II uc;Dino-Group-II uc
+euk_asv_440;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Cylindrotheca;Cylindrotheca_closterium
+euk_asv_441;Eukaryota;Radiolaria;RAD-B;RAD-B uc;RAD-B-Group-IV;RAD-B-Group-IV uc;RAD-B-Group-IV uc_sp.
+euk_asv_442;Eukaryota;Haptophyta;Prymnesiophyceae;Phaeocystales;Phaeocystaceae;Phaeocystis;Phaeocystis_sp.
+euk_asv_443;Eukaryota;Stramenopiles uc;Stramenopiles uc;Stramenopiles uc;Stramenopiles uc;Stramenopiles ucX;Stramenopiles ucX_sp.
+euk_asv_444;Eukaryota;Ochrophyta;Pelagophyceae;Pelagophyceae uc;Pelagophyceae uc;Pelagophyceae uc;Pelagophyceae uc_sp.
+euk_asv_445;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_446;Eukaryota;Choanoflagellida;Choanoflagellatea;Acanthoecida;Stephanoecidae D;Stephanoecidae D uc;Stephanoecidae D uc_sp.
+euk_asv_447;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-4;Dino-I-4 uc;Dino-I-4 uc_sp.
+euk_asv_448;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Raphid-pennate uc;Raphid-pennate uc_sp.
+euk_asv_449;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-14;Dino-II-14 uc;Dino-II-14 uc_sp.
+euk_asv_450;Eukaryota;Ciliophora;Spirotrichea;Strombidiida_G;Strombidiida_G uc;Strombidiida_G uc;Strombidiida_G uc_sp.
+euk_asv_451;Eukaryota;Centroheliozoa;Centroheliozoa uc;Pterocystida;Pterocystida uc;Pterocystida uc;Pterocystida uc_sp.
+euk_asv_452;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Bacillariophyta uc uc;Bacillariophyta uc uc;Bacillariophyta uc uc
+euk_asv_453;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-3;Dino-I-3 uc;Dino-I-3 uc_sp.
+euk_asv_454;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-1;Dino-II-1 uc;Dino-II-1 uc_sp.
+euk_asv_455;Eukaryota;Radiolaria;RAD-B;RAD-B uc;RAD-B-Group-II;RAD-B-Group-II uc;RAD-B-Group-II uc_sp.
+euk_asv_456;Eukaryota;Fungi;Fungi uc;Fungi uc;Fungi uc;Fungi uc;Fungi uc
+euk_asv_457;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc_sp.
+euk_asv_458;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-20;Dino-II-20 uc;Dino-II-20 uc_sp.
+euk_asv_459;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-2;Dino-I-2 uc;Dino-I-2 uc_sp.
+euk_asv_460;Eukaryota;Cercozoa;Filosa-Thecofilosea;Cryomonadida;Cryothecomonas-lineage;Cryothecomonas;Cryothecomonas_aestivalis
+euk_asv_461;Eukaryota;Opalozoa;MAST-3;MAST-3 uc;MAST-3 uc;MAST-3 uc;MAST-3 uc
+euk_asv_462;Eukaryota;Mesomycetozoa;Ichthyosporea;Ichthyosphonida;Abeoformidae_Group_MAIP_2;Abeoformidae_Group_MAIP_2 uc;Abeoformidae_Group_MAIP_2 uc_sp.
+euk_asv_463;Eukaryota;Dinoflagellata;Dinophyceae;Prorocentrales;Prorocentraceae;Prorocentrum;Prorocentrum_sp.
+euk_asv_464;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_spirale
+euk_asv_465;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-6;Dino-II-6 uc;Dino-II-6 uc_sp.
+euk_asv_466;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-21;Dino-II-21 uc;Dino-II-21 uc_sp.
+euk_asv_467;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-2;Dino-I-2 uc;Dino-I-2 uc_sp.
+euk_asv_468;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiida uc;Strombidiida uc;Strombidiida uc
+euk_asv_469;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_470;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-22;Dino-II-22 uc;Dino-II-22 uc_sp.
+euk_asv_471;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_472;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_473;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-13;Dino-II-13 uc;Dino-II-13 uc_sp.
+euk_asv_474;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_475;Eukaryota;Cercozoa;Phaeodarea;Phaeocalpida;Porospathidae;Porospathis;Porospathis_holostoma
+euk_asv_476;Eukaryota;Dinoflagellata;Dinophyceae;Prorocentrales;Prorocentraceae;Prorocentrum;Prorocentrum_sp.
+euk_asv_477;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Chrysochromulinaceae;Chrysochromulina;Chrysochromulina_sp.
+euk_asv_478;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_479;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_480;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Leegaardiellidae_B;Leegaardiella;Leegaardiella_sp.
+euk_asv_481;Eukaryota;Radiolaria;RAD-B;RAD-B uc;RAD-B-Group-IV;RAD-B-Group-IV uc;RAD-B-Group-IV uc_sp.
+euk_asv_482;Eukaryota;Chlorophyta;Pyramimonadales;Pyramimonadales uc;Pyramimonadales uc;Pterosperma;Pterosperma_sp.
+euk_asv_483;Eukaryota;Dinoflagellata;Dinophyceae;Prorocentrales;Prorocentraceae;Prorocentrum;Prorocentrum uc
+euk_asv_484;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Prymnesiaceae;Prymnesium;Prymnesium_sp.
+euk_asv_485;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-40;Dino-II-40 uc;Dino-II-40 uc_sp.
+euk_asv_486;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Prymnesiaceae;Haptolina;Haptolina_sp.
+euk_asv_487;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-28;Dino-II-28 uc;Dino-II-28 uc_sp.
+euk_asv_488;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiida uc;Strombidiida uc;Strombidiida uc
+euk_asv_489;Eukaryota;Ciliophora;Spirotrichea;Tintinnida;Tintinnidae;Tintinnidae uc;Tintinnidae uc_sp.
+euk_asv_490;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc_sp.
+euk_asv_491;Eukaryota;Ciliophora;Nassophorea;Nassophorea uc;Discotrichidae;NASSO_1;NASSO_1_sp.
+euk_asv_492;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_493;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-1;Dino-II-1 uc;Dino-II-1 uc_sp.
+euk_asv_494;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-15;Dino-II-15 uc;Dino-II-15 uc_sp.
+euk_asv_495;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_496;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Navicula;Navicula_lanceolata
+euk_asv_497;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiida uc;Strombidiida uc;Strombidiida uc
+euk_asv_498;Eukaryota;Ochrophyta;Chrysophyceae;Chrysophyceae uc;Chrysophyceae C;Chrysophyceae C uc;Chrysophyceae C uc_sp.
+euk_asv_499;Eukaryota;Cercozoa;Filosa-Thecofilosea;Cryomonadida;Protaspa-lineage;Protaspa-lineage uc;Protaspa-lineage uc_sp.
+euk_asv_500;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc_sp.
+euk_asv_501;Eukaryota;Ciliophora;Phyllopharyngea;Suctoria;Ephelotidae;Ephelota;Ephelota_mammillata
+euk_asv_502;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-9;Dino-II-9 uc;Dino-II-9 uc_sp.
+euk_asv_503;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_504;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_505;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_B;Strombidiidae_B uc;Strombidiidae_B uc_sp.
+euk_asv_506;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_507;Eukaryota;Ciliophora;Phyllopharyngea;Cyrtophoria_1;PHYLL_4;PHYLL_4 uc;PHYLL_4 uc_sp.
+euk_asv_508;Eukaryota;Sagenista;Labyrinthulomycetes;Labyrinthulales;Labyrinthulaceae;Oblongichytrium;Oblongichytrium_sp.
+euk_asv_509;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Leegaardiellidae_B;Leegaardiella;Leegaardiella_sp.
+euk_asv_510;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-20;Dino-II-20 uc;Dino-II-20 uc_sp.
+euk_asv_511;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-13;Dino-II-13 uc;Dino-II-13 uc_sp.
+euk_asv_512;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Strobilidiidae_A;Strobilidiidae_A uc;Strobilidiidae_A uc_sp.
+euk_asv_513;Eukaryota;Haptophyta;Prymnesiophyceae;Isochrysidales;Noelaerhabdaceae;Gephyrocapsa;Gephyrocapsa_oceanica
+euk_asv_514;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gymnodinium;Gymnodinium_sp.
+euk_asv_515;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_516;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Chrysochromulinaceae;Chrysochromulina;Chrysochromulina_leadbeateri
+euk_asv_517;Eukaryota;Pseudofungi;Oomycota;Oomycota uc;Oomycota uc uc;Oomycota uc uc;Oomycota uc uc
+euk_asv_518;Eukaryota;Radiolaria;Acantharea;Acantharea uc;Acantharea uc;Acantharea uc;Acantharea uc_sp.
+euk_asv_519;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Prymnesiaceae;Haptolina;Haptolina_sp.
+euk_asv_520;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_521;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_H;Strombidiidae_H uc;Strombidiidae_H uc_sp.
+euk_asv_522;Eukaryota;Chlorophyta;Pyramimonadales;Pyramimonadales uc;Pyramimonadales uc;Pterosperma;Pterosperma uc
+euk_asv_523;Eukaryota;Sagenista;MAST-7;MAST-7A;MAST-7A uc;MAST-7A uc;MAST-7A uc_sp.
+euk_asv_524;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Coscinodiscophyceae;Melosira;Melosira_arctica
+euk_asv_525;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_spirale
+euk_asv_526;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-2;Dino-I-2 uc;Dino-I-2 uc_sp.
+euk_asv_527;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_528;Eukaryota;Cercozoa;Filosa-Thecofilosea;Cryomonadida;Protaspa-lineage;Protaspa-lineage uc;Protaspa-lineage uc_sp.
+euk_asv_529;Eukaryota;Dinoflagellata;Dinophyceae;Gonyaulacales;Ceratiaceae;Tripos;Tripos_furca
+euk_asv_530;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_531;Eukaryota;Streptophyta;Embryophyceae;Embryophyceae uc;Embryophyceae uc;Pinus;Pinus_taeda
+euk_asv_532;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Heterocapsaceae;Heterocapsa;Heterocapsa_pygmaea
+euk_asv_533;Eukaryota;Cryptophyta;Cryptophyceae;Cryptomonadales;Cryptomonadales uc;Rhodomonas;Rhodomonas_sp.
+euk_asv_534;Eukaryota;Haptophyta;Prymnesiophyceae;Syracosphaerales;Syracosphaerales uc;Syracosphaerales uc;Syracosphaerales uc_sp.
+euk_asv_535;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Mediophyceae uc;Mediophyceae uc
+euk_asv_536;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-4;Dino-I-4 uc;Dino-I-4 uc_sp.
+euk_asv_537;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-5;Dino-II-5 uc;Dino-II-5 uc_sp.
+euk_asv_538;Eukaryota;Chlorophyta;Chlorophyta uc;Chlorophyta uc;Chlorophyta uc;Chlorophyta uc;Chlorophyta uc
+euk_asv_539;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_540;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_H;Strombidiidae_H uc;Strombidiidae_H uc_sp.
+euk_asv_541;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-8;Dino-I-8 uc;Dino-I-8 uc_sp.
+euk_asv_542;Eukaryota;Sagenista;Labyrinthulomycetes;Thraustochytriales;Thraustochytriaceae;Labyrinthuloides;Labyrinthuloides_haliotidis
+euk_asv_543;Eukaryota;Opalozoa;MAST-3;MAST-3F;MAST-3F uc;MAST-3F uc;MAST-3F uc_sp.
+euk_asv_544;Eukaryota;Cercozoa;Chlorarachniophyceae;Chlorarachniophyceae uc;NPK2-lineage;NPK2-lineage uc;NPK2-lineage uc_sp.
+euk_asv_545;Eukaryota;Chlorophyta;Pyramimonadales;Pyramimonadales uc;Pyramimonadales uc;Pyramimonas;Pyramimonas_australis
+euk_asv_546;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Cylindrotheca;Cylindrotheca_closterium
+euk_asv_547;Eukaryota;Chlorophyta;Mamiellophyceae;Dolichomastigales;Dolichomastigales uc;Dolichomastigales uc;Dolichomastigales uc
+euk_asv_548;Eukaryota;Opalozoa;MAST-3;MAST-3I;MAST-3I uc;MAST-3I uc;MAST-3I uc_sp.
+euk_asv_549;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_550;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_551;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-2;Dino-I-2 uc;Dino-I-2 uc_sp.
+euk_asv_552;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-9;Dino-II-9 uc;Dino-II-9 uc_sp.
+euk_asv_553;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Amphidomataceae;Azadinium;Azadinium uc
+euk_asv_554;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_555;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiophyceae_Clade_E;Prymnesiophyceae_Clade_E uc;Prymnesiophyceae_Clade_E uc;Prymnesiophyceae_Clade_E uc_sp.
+euk_asv_556;Eukaryota;Chlorophyta;Pyramimonadales;Pyramimonadales uc;Pyramimonadales uc;Pyramimonadales uc;Pyramimonadales uc_sp.
+euk_asv_557;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-Group-I uc;Dino-Group-I uc;Dino-Group-I uc_sp.
+euk_asv_558;Eukaryota;Cercozoa;Filosa-Imbricatea;Marimonadida;Marimonadida uc;Marimonadida uc;Marimonadida uc_sp.
+euk_asv_559;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-1;Dino-II-1 uc;Dino-II-1 uc_sp.
+euk_asv_560;Eukaryota;Chlorophyta;Mamiellophyceae;Dolichomastigales;Dolichomastigaceae;Dolichomastigaceae-B;Dolichomastigaceae-B_sp.
+euk_asv_561;Eukaryota;Ciliophora;Nassophorea;Nassophorea uc;Discotrichidae;NASSO_1;NASSO_1_sp.
+euk_asv_562;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gymnodinium;Gymnodinium uc
+euk_asv_563;Eukaryota;Picozoa;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc_sp.
+euk_asv_564;Eukaryota;Sagenista;Labyrinthulomycetes;Labyrinthulales;Labyrinthulaceae;Labyrinthulaceae uc;Labyrinthulaceae uc_sp.
+euk_asv_565;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_566;Eukaryota;Apicomplexa;Gregarinomorphea;Eugregarinorida;Eugregarinorida_EUG2;Eugregarinorida_EUG2 uc;Eugregarinorida_EUG2 uc_sp.
+euk_asv_567;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-V;Dino-Group-V uc;Dino-Group-V uc;Dino-Group-V uc_sp.
+euk_asv_568;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Peridiniales uc;Peridiniales uc;Peridiniales uc
+euk_asv_569;Eukaryota;Telonemia;Telonemia uc;Telonemia uc;Telonemia-Group-1;Telonemia-Group-1 uc;Telonemia-Group-1 uc_sp.
+euk_asv_570;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Strobilidiidae_I;Pelagostrobilidium;Pelagostrobilidium_sp.
+euk_asv_571;Eukaryota;Ochrophyta;Dictyochophyceae;Dictyochophyceae uc;Pedinellales;Pedinellales uc;Pedinellales uc_sp.
+euk_asv_572;Eukaryota;Dinoflagellata;Dinophyceae;Prorocentrales;Prorocentraceae;Prorocentrum;Prorocentrum_sp.
+euk_asv_573;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-2;Dino-I-2 uc;Dino-I-2 uc_sp.
+euk_asv_574;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Prymnesiaceae;Dicrateria;Dicrateria_rotunda
+euk_asv_575;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_L;Strombidiidae_L uc;Strombidiidae_L uc_sp.
+euk_asv_576;Eukaryota;Radiolaria;Acantharea;Acantharea uc;Acantharea uc;Acantharea uc;Acantharea uc_sp.
+euk_asv_577;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_578;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Mediophyceae uc;Mediophyceae uc
+euk_asv_579;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc_sp.
+euk_asv_580;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-16;Dino-II-16 uc;Dino-II-16 uc_sp.
+euk_asv_581;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_582;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-15;Dino-II-15 uc;Dino-II-15 uc_sp.
+euk_asv_583;Eukaryota;Centroheliozoa;Centroheliozoa uc;Pterocystida;Pterocystida uc;Pterocystida uc;Pterocystida uc
+euk_asv_584;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-15;Dino-II-15 uc;Dino-II-15 uc_sp.
+euk_asv_585;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_K;Strombidium_K;Strombidium_capitatum
+euk_asv_586;Eukaryota;Ciliophora;Spirotrichea;Tintinnida;Tintinnidae;Amphorellopsis;Amphorellopsis_sp.
+euk_asv_587;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Strobilidiidae_A;Rimostrombidium_A;Rimostrombidium_A_sp.
+euk_asv_588;Eukaryota;Haptophyta;Haptophyta_Clade_HAP5;Haptophyta_Clade_HAP5 uc;Haptophyta_Clade_HAP5 uc;Haptophyta_Clade_HAP5 uc;Haptophyta_Clade_HAP5 uc_sp.
+euk_asv_589;Eukaryota;Choanoflagellida;Choanoflagellatea;Acanthoecida;Stephanoecidae D;Stephanoecidae D uc;Stephanoecidae D uc_sp.
+euk_asv_590;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-6;Dino-II-6 uc;Dino-II-6 uc_sp.
+euk_asv_591;Eukaryota;Ciliophora;Oligohymenophorea;OLIGO5;OLIGO5 uc;OLIGO5 uc;OLIGO5 uc_sp.
+euk_asv_592;Eukaryota;Cercozoa;Filosa-Thecofilosea;Cryomonadida;Protaspa-lineage;Protaspa-lineage uc;Protaspa-lineage uc_sp.
+euk_asv_593;Eukaryota;Telonemia;Telonemia uc;Telonemia uc;Telonemia-Group-2;Telonemia-Group-2 uc;Telonemia-Group-2 uc_sp.
+euk_asv_594;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-5;Dino-II-5 uc;Dino-II-5 uc_sp.
+euk_asv_595;Eukaryota;Pseudofungi;Pirsonia_Clade;PirsoniaX;PirsoniaXX;Pirsonia uc;Pirsonia uc_sp.
+euk_asv_596;Eukaryota;Opalozoa;MAST-3;MAST-3F;MAST-3F uc;MAST-3F uc;MAST-3F uc_sp.
+euk_asv_597;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-8;Dino-I-8 uc;Dino-I-8 uc_sp.
+euk_asv_598;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-4;Dino-I-4 uc;Dino-I-4 uc_sp.
+euk_asv_599;Eukaryota;Chlorophyta;Mamiellophyceae;Mamiellales;Mamiellaceae;Micromonas;Micromonas_clade_B3
+euk_asv_600;Eukaryota;Ciliophora;Spirotrichea;Tintinnida;Tintinnidae;Tintinnidae uc;Tintinnidae uc_sp.
+euk_asv_601;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_602;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_603;Eukaryota;Ochrophyta;Pelagophyceae;Pelagophyceae uc;Pelagophyceae uc;Pelagophyceae uc;Pelagophyceae uc_sp.
+euk_asv_604;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_605;Eukaryota;Sagenista;Labyrinthulomycetes;Thraustochytriales;Thraustochytriaceae;Labyrinthuloides;Labyrinthuloides_haliotidis
+euk_asv_606;Eukaryota;Chlorophyta;Pyramimonadales;Pyramimonadales uc;Pyramimonadales uc;Pterosperma;Pterosperma uc
+euk_asv_607;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_608;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-4;Dino-I-4 uc;Dino-I-4 uc_sp.
+euk_asv_609;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-6;Dino-II-6 uc;Dino-II-6 uc_sp.
+euk_asv_610;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_611;Eukaryota;Ciliophora;Spirotrichea;Choreotrichida;Leegaardiellidae_B;Leegaardiella;Leegaardiella_sp.
+euk_asv_612;Eukaryota;Radiolaria;RAD-B;RAD-B uc;RAD-B-Group-I;RAD-B-Group-I uc;RAD-B-Group-I uc_sp.
+euk_asv_613;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-21;Dino-II-21 uc;Dino-II-21 uc_sp.
+euk_asv_614;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_615;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_616;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-6;Dino-II-6 uc;Dino-II-6 uc_sp.
+euk_asv_617;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_618;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-21;Dino-II-21 uc;Dino-II-21 uc_sp.
+euk_asv_619;Eukaryota;Sagenista;Labyrinthulomycetes;Labyrinthulales;Labyrinthulaceae;Labyrinthulaceae uc;Labyrinthulaceae uc
+euk_asv_620;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_621;Eukaryota;Dinoflagellata;Dinophyceae;Prorocentrales;Prorocentraceae;Prorocentrum;Prorocentrum_sp.
+euk_asv_622;Eukaryota;Chlorophyta;Pyramimonadales;Pyramimonadales uc;Pyramimonadales uc;Pterosperma;Pterosperma_cristatum
+euk_asv_623;Eukaryota;Streptophyta;Embryophyceae;Embryophyceae uc;Embryophyceae uc;Pinus;Pinus_taeda
+euk_asv_624;Eukaryota;Chlorophyta;Pyramimonadales;Pyramimonadales uc;Pyramimonadales uc;Pyramimonas;Pyramimonas_australis
+euk_asv_625;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-III;Dino-Group-III uc;Dino-Group-III uc;Dino-Group-III uc_sp.
+euk_asv_626;Eukaryota;Ochrophyta;Pelagophyceae;Pelagophyceae uc;Pelagophyceae uc;Pelagophyceae uc;Pelagophyceae uc_sp.
+euk_asv_627;Eukaryota;Opalozoa;MAST-3;MAST-3F;MAST-3F uc;MAST-3F uc;MAST-3F uc_sp.
+euk_asv_628;Eukaryota;Haptophyta;Prymnesiophyceae;Phaeocystales;Phaeocystaceae;Phaeocystis;Phaeocystis_antarctica
+euk_asv_629;Eukaryota;Chlorophyta;Pyramimonadales;Pyramimonadales uc;Pyramimonadales uc;Pterosperma;Pterosperma_sp.
+euk_asv_630;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_631;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-27;Dino-II-27 uc;Dino-II-27 uc_sp.
+euk_asv_632;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_633;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-2;Dino-I-2 uc;Dino-I-2 uc_sp.
+euk_asv_634;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiophyceae_Clade_F;Prymnesiophyceae_Clade_F uc;Prymnesiophyceae_Clade_F uc;Prymnesiophyceae_Clade_F uc_sp.
+euk_asv_635;Eukaryota;Radiolaria;Acantharea;Chaunacanthida;Chaunacanthida uc;Heteracon;Heteracon uc
+euk_asv_636;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Coscinodiscophyceae;Rhizosolenia;Rhizosolenia_imbricata
+euk_asv_637;Eukaryota;Sagenista;Labyrinthulomycetes;Labyrinthulales;Labyrinthulaceae;Labyrinthulaceae uc;Labyrinthulaceae uc_sp.
+euk_asv_638;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Prymnesiaceae;Prymnesium;Prymnesium_polylepis
+euk_asv_639;Eukaryota;Opalozoa;MAST-3;MAST-3L;MAST-3L uc;MAST-3L uc;MAST-3L uc_sp.
+euk_asv_640;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Raphid-pennate uc;Raphid-pennate uc
+euk_asv_641;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-6;Dino-II-6 uc;Dino-II-6 uc_sp.
+euk_asv_642;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-V;Dino-Group-V uc;Dino-Group-V uc;Dino-Group-V uc_sp.
+euk_asv_643;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_644;Eukaryota;Ochrophyta;MOCH-1;MOCH-1 uc;MOCH-1 uc;MOCH-1 uc;MOCH-1 uc_sp.
+euk_asv_645;Eukaryota;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc
+euk_asv_646;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_647;Eukaryota;Haptophyta;Haptophyta_Clade_HAP4;Haptophyta_Clade_HAP4 uc;Haptophyta_Clade_HAP4 uc;Haptophyta_Clade_HAP4 uc;Haptophyta_Clade_HAP4 uc_sp.
+euk_asv_648;Eukaryota;Opalozoa;MAST-3;MAST-3E;MAST-3E uc;MAST-3E uc;MAST-3E uc_sp.
+euk_asv_649;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-Group-II uc;Dino-Group-II uc;Dino-Group-II uc
+euk_asv_650;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-6;Dino-II-6 uc;Dino-II-6 uc_sp.
+euk_asv_651;Eukaryota;Streptophyta;Embryophyceae;Embryophyceae uc;Embryophyceae uc;Pinus;Pinus_taeda
+euk_asv_652;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-21;Dino-II-21 uc;Dino-II-21 uc_sp.
+euk_asv_653;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Kareniaceae;Karlodinium;Karlodinium_veneficum
+euk_asv_654;Eukaryota;Radiolaria;Acantharea;Chaunacanthida;Chaunacanthida uc;Acanthometron;Acanthometron_sp.
+euk_asv_655;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc_sp.
+euk_asv_656;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_helveticum
+euk_asv_657;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_658;Eukaryota;Opalozoa;MAST-3;MAST-3G;MAST-3G uc;MAST-3G uc;MAST-3G uc_sp.
+euk_asv_659;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Thalassiosira;Thalassiosira_sp.
+euk_asv_660;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_661;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_662;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_663;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Fragilariopsis;Fragilariopsis_sublineata
+euk_asv_664;Eukaryota;Cercozoa;Filosa-Thecofilosea;Cryomonadida;Protaspa-lineage;Protaspa-lineage uc;Protaspa-lineage uc_sp.
+euk_asv_665;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-21;Dino-II-21 uc;Dino-II-21 uc_sp.
+euk_asv_666;Eukaryota;Ciliophora;Spirotrichea;Strombidiida_B;Strombidiida_B uc;Strombidiida_B uc;Strombidiida_B uc_sp.
+euk_asv_667;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-15;Dino-II-15 uc;Dino-II-15 uc_sp.
+euk_asv_668;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-Group-II uc;Dino-Group-II uc;Dino-Group-II uc_sp.
+euk_asv_669;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Thalassiosira;Thalassiosira_rotula
+euk_asv_670;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gyrodinium;Gyrodinium_dominans
+euk_asv_671;Eukaryota;Ciliophora;Spirotrichea;Tintinnida;Stenosemellidae;Stenosemella;Stenosemella_pacifica
+euk_asv_672;Eukaryota;Opalozoa;MAST-3;MAST-3I;MAST-3I uc;MAST-3I uc;MAST-3I uc_sp.
+euk_asv_673;Eukaryota;Sagenista;Labyrinthulomycetes;Labyrinthulales;Labyrinthulaceae;Labyrinthulaceae uc;Labyrinthulaceae uc
+euk_asv_674;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-2;Dino-II-2 uc;Dino-II-2 uc_sp.
+euk_asv_675;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-4;Dino-II-4 uc;Dino-II-4 uc_sp.
+euk_asv_676;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Chytriodiniaceae;Chytriodinium;Chytriodinium_roseum
+euk_asv_677;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniales uc;Gymnodiniales uc;Gymnodiniales uc
+euk_asv_678;Eukaryota;Pseudofungi;MAST-1;MAST-1B;MAST-1B uc;MAST-1B uc;MAST-1B uc_sp.
+euk_asv_679;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-16;Dino-II-16 uc;Dino-II-16 uc_sp.
+euk_asv_680;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Balechina;Balechina_pachydermata
+euk_asv_681;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Margalefidinium;Margalefidinium_fulvescens
+euk_asv_682;Eukaryota;Ciliophora;Phyllopharyngea;Cyrtophoria_1;PHYLL_4;PHYLL_4 uc;PHYLL_4 uc_sp.
+euk_asv_683;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-7;Dino-II-7 uc;Dino-II-7 uc_sp.
+euk_asv_684;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiophyceae_Clade_F;Prymnesiophyceae_Clade_F uc;Prymnesiophyceae_Clade_F uc;Prymnesiophyceae_Clade_F uc_sp.
+euk_asv_685;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Skeletonema;Skeletonema_marinoi
+euk_asv_686;Eukaryota;Haptophyta;Prymnesiophyceae;Isochrysidales;Noelaerhabdaceae;Gephyrocapsa;Gephyrocapsa_oceanica
+euk_asv_687;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Thoracosphaeraceae;Thoracosphaeraceae uc;Thoracosphaeraceae uc_sp.
+euk_asv_688;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_689;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_690;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-16;Dino-II-16 uc;Dino-II-16 uc_sp.
+euk_asv_691;Eukaryota;Sagenista;MAST-4;MAST-4D;MAST-4D uc;MAST-4D uc;MAST-4D uc_sp.
+euk_asv_692;Eukaryota;Haptophyta;Prymnesiophyceae;Isochrysidales;Noelaerhabdaceae;Gephyrocapsa;Gephyrocapsa_oceanica
+euk_asv_693;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_694;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-3;Dino-II-3 uc;Dino-II-3 uc_sp.
+euk_asv_695;Eukaryota;Opalozoa;MAST-3;MAST-3D;MAST-3D uc;MAST-3D uc;MAST-3D uc_sp.
+euk_asv_696;Eukaryota;Radiolaria;Acantharea;Acantharea uc;Acantharea uc;Acantharea uc;Acantharea uc_sp.
+euk_asv_697;Eukaryota;Mesomycetozoa;Ichthyosporea;Ichthyosphonida;Abeoformidae_Group_MAIP_2;Abeoformidae_Group_MAIP_2 uc;Abeoformidae_Group_MAIP_2 uc_sp.
+euk_asv_698;Eukaryota;Ciliophora;Phyllopharyngea;Rhynchodia;Hypocomidae;Hypocoma;Hypocoma_acinetarum
+euk_asv_699;Eukaryota;Cercozoa;Chlorarachniophyceae;Chlorarachniophyceae uc;NPK2-lineage;NPK2-lineage uc;NPK2-lineage uc_sp.
+euk_asv_700;Eukaryota;Dinoflagellata;Dinophyta uc;Dinophyta uc;Dinophyta uc;Dinophyta uc;Dinophyta uc_sp.
+euk_asv_701;Eukaryota;Picozoa;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc_sp.
+euk_asv_702;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_703;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_704;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-14;Dino-II-14 uc;Dino-II-14 uc_sp.
+euk_asv_705;Eukaryota;Dinoflagellata;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gymnodinium;Gymnodinium_sp.
+euk_asv_706;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Chrysochromulinaceae;Chrysochromulina;Chrysochromulina_sp.
+euk_asv_707;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Navicula;Navicula_lanceolata
+euk_asv_708;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-21;Dino-II-21 uc;Dino-II-21 uc_sp.
+euk_asv_709;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-9;Dino-II-9 uc;Dino-II-9 uc_sp.
+euk_asv_710;Eukaryota;Ochrophyta;Dictyochophyceae;Dictyochophyceae uc;Florenciellales;Pseudochattonella;Pseudochattonella_farcimen
+euk_asv_711;Eukaryota;Radiolaria;Acantharea;Acantharea uc;Acantharea uc;Acantharea uc;Acantharea uc_sp.
+euk_asv_712;Eukaryota;Chlorophyta;Mamiellophyceae;Dolichomastigales;Dolichomastigaceae;Dolichomastigaceae uc;Dolichomastigaceae uc
+euk_asv_713;Eukaryota;Fungi;Fungi uc;Fungi uc;Fungi uc;Fungi uc;Fungi uc_sp.
+euk_asv_714;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Coscinodiscophyceae;Proboscia;Proboscia_alata
+euk_asv_715;Eukaryota;Sagenista;MAST-9;MAST-9A;MAST-9A uc;MAST-9A uc;MAST-9A uc_sp.
+euk_asv_716;Eukaryota;Pseudofungi;MAST-1;MAST-1C;MAST-1C uc;MAST-1C uc;MAST-1C uc_sp.
+euk_asv_717;Eukaryota;Sagenista;MAST-9;MAST-9A;MAST-9A uc;MAST-9A uc;MAST-9A uc_sp.
+euk_asv_718;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-4;Dino-II-4 uc;Dino-II-4 uc_sp.
+euk_asv_719;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Navicula;Navicula_sp.
+euk_asv_720;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-1;Dino-II-1 uc;Dino-II-1 uc_sp.
+euk_asv_721;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-46;Dino-II-46 uc;Dino-II-46 uc_sp.
+euk_asv_722;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Chaetoceros;Chaetoceros_dichaeta
+euk_asv_723;Eukaryota;Ciliophora;Litostomatea;Haptoria_4;Didiniidae;Didiniidae uc;Didiniidae uc_sp.
+euk_asv_724;Eukaryota;Radiolaria;Acantharea;Acantharea uc;Acantharea uc;Acantharea uc;Acantharea uc_sp.
+euk_asv_725;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-20;Dino-II-20 uc;Dino-II-20 uc_sp.
+euk_asv_726;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_727;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Mediophyceae uc;Mediophyceae uc
+euk_asv_728;Eukaryota;Picozoa;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc_sp.
+euk_asv_729;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_730;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Amphidomataceae;Azadinium;Azadinium_trinitatum
+euk_asv_731;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Amphora;Amphora_coffeaeformis
+euk_asv_732;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-6;Dino-II-6 uc;Dino-II-6 uc_sp.
+euk_asv_733;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-III;Dino-Group-III uc;Dino-Group-III uc;Dino-Group-III uc_sp.
+euk_asv_734;Eukaryota;Telonemia;Telonemia uc;Telonemia uc;Telonemia-Group-2;Telonemia-Group-2 uc;Telonemia-Group-2 uc_sp.
+euk_asv_735;Eukaryota;Ciliophora;Spirotrichea;Strombidiida;Strombidiidae_H;Strombidiidae_H uc;Strombidiidae_H uc_sp.
+euk_asv_736;Eukaryota;Mesomycetozoa;Ichthyosporea;Ichthyosphonida;Abeoformidae_Group_MAIP_2;Abeoformidae_Group_MAIP_2 uc;Abeoformidae_Group_MAIP_2 uc_sp.
+euk_asv_737;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Peridiniales uc;Peridiniales uc;Peridiniales uc
+euk_asv_738;Eukaryota;Ochrophyta;Bolidophyceae;Parmales;Parmales_env_3;Parmales_env_3B;Parmales_env_3B_sp.
+euk_asv_739;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-10-and-11;Dino-II-10-and-11 uc;Dino-II-10-and-11 uc_sp.
+euk_asv_740;Eukaryota;Ochrophyta;Bolidophyceae;Parmales;Triparmaceae;Triparma;Triparma_laevis_clade
+euk_asv_741;Eukaryota;Sagenista;Labyrinthulomycetes;Labyrinthulales;Labyrinthulaceae;Labyrinthulaceae uc;Labyrinthulaceae uc_sp.
+euk_asv_742;Eukaryota;Ochrophyta;Chrysophyceae;Chrysophyceae uc;Chrysophyceae H;Chrysophyceae H uc;Chrysophyceae H uc_sp.
+euk_asv_743;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Navicula;Navicula uc
+euk_asv_744;Eukaryota;Cercozoa;Filosa-Imbricatea;Filosa-Imbricatea uc;Novel-clade-2;Novel-clade-2 uc;Novel-clade-2 uc_sp.
+euk_asv_745;Eukaryota;Radiolaria;Acantharea;Acantharea uc;Acantharea uc;Acantharea uc;Acantharea uc_sp.
+euk_asv_746;Eukaryota;Picozoa;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc;Picozoa uc_sp.
+euk_asv_747;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-23;Dino-II-23 uc;Dino-II-23 uc_sp.
+euk_asv_748;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Raphid-pennate;Pseudo-nitzschia;Pseudo-nitzschia uc
+euk_asv_749;Eukaryota;Radiolaria;Acantharea;Acantharea uc;Acantharea uc;Acantharea uc;Acantharea uc_sp.
+euk_asv_750;Eukaryota;Ochrophyta;Bolidophyceae;Parmales;Triparmaceae;Triparma;Triparma_eleuthera
+euk_asv_751;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-21;Dino-II-21 uc;Dino-II-21 uc_sp.
+euk_asv_752;Eukaryota;Streptophyta;Embryophyceae;Embryophyceae uc;Embryophyceae uc;Solanum;Solanum uc
+euk_asv_753;Eukaryota;Cercozoa;Filosa-Thecofilosea;Cryomonadida;Protaspa-lineage;Protaspa-lineage uc;Protaspa-lineage uc_sp.
+euk_asv_754;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-23;Dino-II-23 uc;Dino-II-23 uc_sp.
+euk_asv_755;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_756;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Bacillariophyta uc uc;Bacillariophyta uc uc;Bacillariophyta uc uc
+euk_asv_757;Eukaryota;Cryptophyta;Cryptophyceae;Cryptomonadales;Cryptomonadales uc;Geminigera;Geminigera_cryophila
+euk_asv_758;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_759;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_760;Eukaryota;Chlorophyta;Mamiellophyceae;Mamiellales;Bathycoccaceae;Ostreococcus;Ostreococcus_lucimarinus
+euk_asv_761;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-14;Dino-II-14 uc;Dino-II-14 uc_sp.
+euk_asv_762;Eukaryota;Opalozoa;MAST-3;MAST-3E;MAST-3E uc;MAST-3E uc;MAST-3E uc_sp.
+euk_asv_763;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Chrysochromulinaceae;Chrysochromulina;Chrysochromulina_sp.
+euk_asv_764;Eukaryota;Cercozoa;Filosa-Thecofilosea;Cryomonadida;Cryothecomonas-lineage;Cryothecomonas;Cryothecomonas_aestivalis
+euk_asv_765;Eukaryota;Ciliophora;Spirotrichea;Tintinnida;Dictyocystidae;Dictyocystidae uc;Dictyocystidae uc_sp.
+euk_asv_766;Eukaryota;Cercozoa;Filosa-Thecofilosea;Cryomonadida;Protaspa-lineage;Protaspa-lineage uc;Protaspa-lineage uc_sp.
+euk_asv_767;Eukaryota;Radiolaria;Acantharea;Acantharea-Group-I;Acantharea-Group-I uc;Acantharea-Group-I uc;Acantharea-Group-I uc_sp.
+euk_asv_768;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_769;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Prymnesiophyceae_Clade_B4;Prymnesiophyceae_Clade_B4 uc;Prymnesiophyceae_Clade_B4 uc_sp.
+euk_asv_770;Eukaryota;Centroheliozoa;Centroheliozoa uc;Pterocystida;Pterocystida uc;Pterocystida uc;Pterocystida uc
+euk_asv_771;Eukaryota;Cercozoa;Filosa-Imbricatea;Filosa-Imbricatea uc;Novel-clade-2;Novel-clade-2 uc;Novel-clade-2 uc_sp.
+euk_asv_772;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-4;Dino-I-4 uc;Dino-I-4 uc_sp.
+euk_asv_773;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Thalassiosira;Thalassiosira_hispida
+euk_asv_774;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-12;Dino-II-12 uc;Dino-II-12 uc_sp.
+euk_asv_775;Eukaryota;Opalozoa;MAST-3;MAST-3I;MAST-3I uc;MAST-3I uc;MAST-3I uc_sp.
+euk_asv_776;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Araphid-pennate;Araphid-pennate uc;Araphid-pennate uc
+euk_asv_777;Eukaryota;Cercozoa;Filosa-Thecofilosea;Filosa-Thecofilosea uc;Mataza-lineage;Mataza-lineage uc;Mataza-lineage uc_sp.
+euk_asv_778;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Chrysochromulinaceae;Chrysochromulina;Chrysochromulina_sp.
+euk_asv_779;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_780;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-12;Dino-II-12 uc;Dino-II-12 uc_sp.
+euk_asv_781;Eukaryota;Ochrophyta;MOCH-1;MOCH-1 uc;MOCH-1 uc;MOCH-1 uc;MOCH-1 uc_sp.
+euk_asv_782;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-III;Dino-Group-III uc;Dino-Group-III uc;Dino-Group-III uc_sp.
+euk_asv_783;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Minidiscus;Minidiscus_trioculatus
+euk_asv_784;Eukaryota;Sagenista;MAST-9;MAST-9D;MAST-9D uc;MAST-9D uc;MAST-9D uc_sp.
+euk_asv_785;Eukaryota;Radiolaria;Acantharea;Acantharea uc;Acantharea uc;Acantharea uc;Acantharea uc_sp.
+euk_asv_786;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-II;Dino-II-16;Dino-II-16 uc;Dino-II-16 uc_sp.
+euk_asv_787;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_788;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
+euk_asv_789;Eukaryota;Chlorophyta;Mamiellophyceae;Dolichomastigales;Dolichomastigaceae;Dolichomastigaceae-B;Dolichomastigaceae-B_sp.
+euk_asv_790;Eukaryota;Haptophyta;Prymnesiophyceae;Prymnesiales;Chrysochromulinaceae;Chrysochromulina;Chrysochromulina_sp.
+euk_asv_791;Eukaryota;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc;Eukaryota uc
+euk_asv_792;Eukaryota;Sagenista;Labyrinthulomycetes;Labyrinthulales;Labyrinthulaceae;Labyrinthulaceae uc;Labyrinthulaceae uc
+euk_asv_793;Eukaryota;Cercozoa;Filosa-Thecofilosea;Cryomonadida;Cryothecomonas-lineage;Cryothecomonas;Cryothecomonas_aestivalis
+euk_asv_794;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-2;Dino-I-2 uc;Dino-I-2 uc_sp.
+euk_asv_795;Eukaryota;Dinoflagellata;Dinophyceae;Peridiniales;Blastodiniaceae;Blastodinium;Blastodinium_mangini
+euk_asv_796;Eukaryota;Ochrophyta;Bacillariophyta;Bacillariophyta uc;Mediophyceae;Arcocellulus;Arcocellulus_cornucervis
+euk_asv_797;Eukaryota;Dinoflagellata;Dinophyceae;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc;Dinophyceae uc
+euk_asv_798;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-1;Dino-I-1 uc;Dino-I-1 uc_sp.
+euk_asv_799;Eukaryota;Dinoflagellata;Syndiniales;Dino-Group-I;Dino-I-5;Dino-I-5 uc;Dino-I-5 uc_sp.
