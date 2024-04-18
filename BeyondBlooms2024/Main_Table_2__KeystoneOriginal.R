@@ -52,7 +52,8 @@ ccmp$sameClu[ccmp$from_clu==ccmp$to_clu]=1
 
 # jetzt nehmen wir CCM aber hohes edge ist hier doch gut also 1-corr oder?
 inet=graph_from_data_frame(ccmp[,c(1,2,3)],directed = T)
-E(inet)$weight=ccmp$corr
+ccmp$one_minus_corr <- 1- ccmp$corr
+E(inet)$weight=ccmp$one_minus_corr
 cn=components(inet)
 inet=induced.subgraph(inet,which(cn$membership==1))
 
@@ -78,5 +79,7 @@ km$pval_bw=pAdj_bw[match(km$Nodes,names(pAdj_bw))]
 
 #### get only significant values
 pp=km[km$ELA==1 & km$pval_cln<0.05,]
-write.csv2(pp,file="BeyondBlooms2024/tables/Main_Table_2___Keystone_Species_OriginalSimCon.csv",
+#write.csv2(pp,file="BeyondBlooms2024/tables/Main_Table_2___Keystone_Species_OriginalSimCon.csv",
+#            quote = F)
+write.csv2(pp,file="BeyondBlooms2024/tables/Main_Table_2___Keystone_Species_OriginalSimCon_1-corr.csv",
             quote = F)

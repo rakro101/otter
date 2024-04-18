@@ -52,7 +52,8 @@ ccmp$sameClu=0
 ccmp$sameClu[ccmp$from_clu==ccmp$to_clu]=1
 
 inet=graph_from_data_frame(ccmp[,c(1,2,3)],directed = T)
-E(inet)$weight=ccmp$corr
+ccmp$one_minus_corr <- 1- ccmp$corr
+E(inet)$weight=ccmp$one_minus_corr
 cn=components(inet)
 inet=induced.subgraph(inet,which(cn$membership==1))
 
@@ -78,6 +79,7 @@ km$pval_bw=pAdj_bw[match(km$Nodes,names(pAdj_bw))]
 
 #### get only significant values
 pp_atl=km[km$ELA==1 & km$pval_cln<0.05,]
-write.csv2(pp_atl,file="BeyondBlooms2024/tables/Sup_Table_3___Keystone_Species_AtlanticSimCon.csv",
+#write.csv2(pp_atl,file="BeyondBlooms2024/tables/Sup_Table_3___Keystone_Species_AtlanticSimCon.csv",
+#            quote = F)
+write.csv2(pp_atl,file="BeyondBlooms2024/tables/Sup_Table_3___Keystone_Species_AtlanticSimCon1-corr.csv",
             quote = F)
-
