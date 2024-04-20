@@ -130,7 +130,7 @@ if __name__ == "__main__":
 
     # Adjust layout to prevent overlap
     plt.tight_layout()
-    plt.savefig("figures/Sup_Figure_S12_Energy_plots_subplots.png", dpi=300)
+    plt.savefig("figures/Sup_Figure_S13_Energy_plots_subplots.png", dpi=300)
     plt.show()
     ######
 
@@ -189,6 +189,6 @@ if __name__ == "__main__":
     # Adjust layout to prevent overlap
     plt.tight_layout()
     plt.savefig(
-        "figures/Sup_Figure_S13_Energy_plots_subplots_real_01TA_08TS.png", dpi=300
+        "figures/Sup_Figure_S12_Energy_plots_subplots_real_01TA_08TS.png", dpi=300
     )
     plt.show()

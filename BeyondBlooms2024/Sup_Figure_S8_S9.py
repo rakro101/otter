@@ -54,7 +54,7 @@ if __name__ == "__main__":
     df_distr["alternative"] = "two-sided"
     df_distr["test_stat"] = [ks_statistic, ks_statistic_, ks_statistic__]
     df_distr["p-value"] = [p_value, p_value_, p_value__]
-    df_distr["significants stars"] = ["***", "", "***"]
+    df_distr["significants stars"] = ["***", "***", "***"]  # ToDo Manually added
 
     df_distr.to_csv(
         "tables/Sup_Table_S2_Kolmogorov-Smirnov_ccm_variants_ALL.csv", sep=";"
@@ -188,5 +188,5 @@ if __name__ == "__main__":
     plt.ylabel("Cumulative Probability")
     plt.legend()
     plt.grid(True)
-    plt.savefig("figures/Sup_Figure_S9_random_non_con_ccm_con_ccm_CFD_plot_ALL.png")
+    plt.savefig("figures/Sup_Figure_S8_random_non_con_ccm_con_ccm_CFD_plot_ALL.png")
     plt.show()

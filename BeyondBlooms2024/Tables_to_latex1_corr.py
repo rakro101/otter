@@ -1,14 +1,27 @@
 import pandas as pd
 
-if __name__ == "__main__":
-    df_origin = pd.read_csv(
-        "tables/Main_Table_2___Keystone_Species_OriginalSimCon_1-corr.csv", sep=";"
-    )
-    print(df_origin.columns)
-    cols = ["Nodes", "Phylum", "Genus", "Species", "cluster_names", "relAbund", "cln"]
+
+def map_clu_season(x):
+    dd = {"TS": "spring", "HS": "summer", "LW": "winter", "TA": "autumn"}
+    return dd[x[2:]]
+
+
+def tables_to_latex1_corr(in_path, out_path):
+    df = pd.read_csv(in_path, sep=";", decimal=",")
+    cols = [
+        "Nodes",
+        "Phylum",
+        "Class",
+        "Genus",
+        "Species",
+        "cluster_names",
+        "relAbund",
+        "cln",
+    ]
     new_cols = [
         "Nodes",
         "Phylum",
+        "Class",
         "Genus",
         "Species",
         "Cluster",
@@ -16,20 +29,45 @@ if __name__ == "__main__":
         "Closeness Centrality",
     ]
     cols_dict = dict(zip(cols, new_cols))
-    df_origin[cols].rename(columns=cols_dict).to_latex(
-        "tables/Main_Table_2___Keystone_Species_OriginalSimCon_Latex1-corr.tex", index=False
-    )
+    df.sort_values(["cluster_names", "relAbund"], inplace=True, ascending=False)
 
-    df_arc = pd.read_csv(
-        "tables/Sup_Table_4___Keystone_Species_ArcticSimCon1-corr.csv", sep=";"
+    df_temp = df[cols].rename(columns=cols_dict)
+    df_temp["Nodes"] = df_temp["Nodes"].str.replace("_", "\_")
+    df_temp["Phylum"] = df_temp["Phylum"].str.replace("_", "\_")
+    df_temp["Genus"] = df_temp["Genus"].str.replace("_", "\_")
+    df_temp["Species"] = df_temp["Species"].str.replace("_", "\_")
+    df_temp["rel. Abundance"] = df_temp["rel. Abundance"].round(3)
+    df_temp["Closeness Centrality"] = df_temp["Closeness Centrality"].round(3)
+    # print(df_temp["Closeness Centrality"])
+    df_temp["Species"] = df_temp["Species"].apply(lambda x: "\\textit{" + x + "}")
+    # df_temp.value_counts("Cluster")
+    df_temp2 = df_temp.copy()
+    df_temp2["season"] = df_temp2["Cluster"].apply(lambda x: map_clu_season(x))
+    print(df_temp2["season"].value_counts())
+    print(df_temp2.value_counts(["season", "Phylum", "Class"]))
+    latex_table = df_temp.to_latex(
+        index=False, escape=False, decimal=".", float_format="%.3f"
     )
-    df_arc[cols].rename(columns=cols_dict).to_latex(
-        "tables/Sup_Table_4___Keystone_Species_ArcticSimCon_Latex1-corr.tex", index=False
-    )
+    latex_table = latex_table.replace("\n", "\n\\hline\n")
+    with open(out_path, "w") as f:
+        f.write(latex_table)
 
-    df_atl = pd.read_csv(
-        "tables/Sup_Table_3___Keystone_Species_AtlanticSimCon1-corr.csv", sep=";"
+    return df
+
+
+if __name__ == "__main__":
+    df_origin = tables_to_latex1_corr(
+        "tables/Main_Table_2___Keystone_Species_OriginalSimCon_1-corr.csv",
+        "tables/Main_Table_2___Keystone_Species_OriginalSimCon_Latex1-corr.tex",
     )
-    df_atl[cols].rename(columns=cols_dict).to_latex(
-        "tables/Sup_Table_3___Keystone_Species_AtlanticSimCon_Latex1-corr.tex", index=False
+    print("df_origin", df_origin.shape)
+    df_arc = tables_to_latex1_corr(
+        "tables/Sup_Table_4___Keystone_Species_ArcticSimCon1-corr.csv",
+        "tables/Sup_Table_4___Keystone_Species_ArcticSimCon_Latex1-corr.tex",
     )
+    print("df_arc", df_arc.shape)
+    df_atl = tables_to_latex1_corr(
+        "tables/Sup_Table_3___Keystone_Species_AtlanticSimCon1-corr.csv",
+        "tables/Sup_Table_3___Keystone_Species_AtlanticSimCon_Latex1-corr.tex",
+    )
+    print("df_atl", df_atl.shape)
