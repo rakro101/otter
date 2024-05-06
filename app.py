@@ -42,11 +42,14 @@ col1, col2, col3 = st.columns(3)
 # Upload three CSV files
 with col1:
     st.title("Abundance")
+    checkbox_value1 = st.checkbox('Transpose DF1')
     # Dropdown to select separator
     separator1 = st.selectbox("Select Separator 1", [";", ",", "\t", "\s"])
     uploaded_file1 = st.file_uploader("Upload CSV File 1", type=["csv"])
     if uploaded_file1 is not None:
         df1 = pd.read_csv(uploaded_file1, sep=separator1, index_col=0)
+        if checkbox_value1:
+            df1 = df1.T
         # df1 = df1.T.head(50).T
         num_events1 = df1.shape[0]
         num_asvs1 = df1.shape[1]
@@ -55,11 +58,14 @@ with col1:
 
 with col2:
     st.title("Environment")
+    checkbox_value2 = st.checkbox('Transpose DF2')
     # Dropdown to select separator
     separator2 = st.selectbox("Select Separator 2", [";", ",", "\t", "\s"])
     uploaded_file2 = st.file_uploader("Upload CSV File 2", type=["csv"])
     if uploaded_file2 is not None:
         df2 = pd.read_csv(uploaded_file2, sep=separator2, index_col=0)
+        if checkbox_value2:
+            df2 = df2.T
         num_events2 = df2.shape[0]
         num_features2 = df2.shape[1]
         st.write(
@@ -82,11 +88,14 @@ with col2:
 
 with col3:
     st.title("Taxa")
+    checkbox_value3 = st.checkbox('Transpose DF3')
     # Dropdown to select separator
     separator3 = st.selectbox("Select Separator 3", [";", ",", "\t", "\s"])
     uploaded_file3 = st.file_uploader("Upload CSV File 3", type=["csv"])
     if uploaded_file3 is not None:
         df3 = pd.read_csv(uploaded_file3, sep=separator3, index_col=0)
+        if checkbox_value3:
+            df3 = df3.T
         num_events3 = df3.shape[0]
         num_features3 = df3.shape[1]
         st.write("TaxaInfo: {} events, {} features".format(num_events3, num_features3))
