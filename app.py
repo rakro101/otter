@@ -48,6 +48,7 @@ with col1:
     uploaded_file1 = st.file_uploader("Upload CSV File 1", type=["csv"])
     if uploaded_file1 is not None:
         df1 = pd.read_csv(uploaded_file1, sep=separator1, index_col=0)
+        df1.index = df1.index.astype(str).str.replace(";", "_")
         if checkbox_value1:
             df1 = df1.T
         # df1 = df1.T.head(50).T
@@ -64,6 +65,7 @@ with col2:
     uploaded_file2 = st.file_uploader("Upload CSV File 2", type=["csv"])
     if uploaded_file2 is not None:
         df2 = pd.read_csv(uploaded_file2, sep=separator2, index_col=0)
+        df2.index = df2.index.astype(str).str.replace(";","_")
         if checkbox_value2:
             df2 = df2.T
         num_events2 = df2.shape[0]
@@ -94,6 +96,7 @@ with col3:
     uploaded_file3 = st.file_uploader("Upload CSV File 3", type=["csv"])
     if uploaded_file3 is not None:
         df3 = pd.read_csv(uploaded_file3, sep=separator3, index_col=0)
+        df3.index = df3.index.astype(str).str.replace(";", "_")
         if checkbox_value3:
             df3 = df3.T
         num_events3 = df3.shape[0]
@@ -143,10 +146,10 @@ with col3:
         # Sub p-value Parameters
         st.title("Permutation Parameters")
         NUM_PERMUTATIONS = st.number_input(
-            "Number of Permutations", value=2, min_value=1
+            "Number of Permutations", value=1000, min_value=1
         )
-        NUM_SAMPLES = st.number_input("Number of Samples", value=10, min_value=1)
-        NUM_CORES = st.number_input("Number of Cores", value=1, min_value=1)
+        NUM_SAMPLES = st.number_input("Number of Samples", value=1000, min_value=10)
+        NUM_CORES = st.number_input("Number of Cores", value=10, min_value=1)
 
 ########################################################################################################################
 # Output files
@@ -214,7 +217,7 @@ with col00:
 ########################################################################################################################
 
 # Create sub-containers for file uploads
-col4, col5, col6, col7, col8 = st.columns(5)
+col4, col5, col6, col7, col8, col9 = st.columns(6)
 
 with col4:
     st.subheader("CON")
@@ -431,3 +434,75 @@ with col8:
         )
     except:
         st.write("Pruning not calculated")
+
+with col9:
+    st.subheader("Run all")
+    if st.button("Run all"):
+        with st.spinner("Create All Nets..."):
+            from gui_create_con import create_con_network
+            from gui_create_ccm import create_ccmn_network
+            from gui_create_mapping import ccmn_con_mapping
+            from gui_create_louvain import compute_louvain
+            from gui_create_permu_ccmn import add_sub_pval_to_ccmn
+
+            create_con_network(
+                HELLENIGER_NORM,
+                CON_METHOD,
+                FFT_COEFFS,
+                df2,
+                df1,
+                df3,
+                CON_TR,
+                CON_ALPHA,
+                CON_SYM,
+                CON_NETWORK_PATH,
+                CON_META_PATH,
+            )
+            st.write("Con Created")
+
+            create_ccmn_network(
+                HELLENIGER_NORM,
+                CCMN_METHOD,
+                df2,
+                df1,
+                df3,
+                CCMN_SYM,
+                CCMN_NETWORK_PATH,
+                CCMN_META_PATH,
+            )
+            st.write("CCM Created")
+
+            compute_louvain(
+                CON_TR,
+                CON_NETWORK_PATH,
+                CON_META_PATH,
+                LOUVAIN_RES,
+                CON_LOUVAIN_NETWORK_PATH,
+                CON_LOUVAIN_META_PATH,
+            )
+            st.write("Louvain Created")
+
+
+            ccmn_con_mapping(
+                CCMN_CON_MAP_PATH,
+                CON_LOUVAIN_META_PATH,
+                CON_LOUVAIN_NETWORK_PATH,
+                CCMN_NETWORK_PATH,
+            )
+            st.write("Mapping Created")
+
+            add_sub_pval_to_ccmn(
+                df1,
+                CCMN_CON_MAP_PATH,
+                CON_LOUVAIN_META_PATH,
+                CON_LOUVAIN_NETWORK_PATH,
+                NUM_PERMUTATIONS,
+                NUM_SAMPLES,
+                NUM_CORES,
+                df2,
+                PRUNED_PVAL_CCMN_PATH,
+                PVAL_CCMN_PATH,
+                ENRICHED_META_PATH,
+                RANDOM_PVAL_CCMN_PATH,
+            )
+            st.write("Pruning Created")
