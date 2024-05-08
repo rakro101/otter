@@ -145,10 +145,11 @@ with col3:
     with my_expander3:
         # Sub p-value Parameters
         st.title("Permutation Parameters")
+        CALC_CENTRALITIES = st.selectbox("Centralities", [False, True])
         NUM_PERMUTATIONS = st.number_input(
-            "Number of Permutations", value=1000, min_value=1
+            "Number of Permutations", value=100, min_value=1
         )
-        NUM_SAMPLES = st.number_input("Number of Samples", value=1000, min_value=10)
+        NUM_SAMPLES = st.number_input("Number of Samples", value=100, min_value=10)
         NUM_CORES = st.number_input("Number of Cores", value=10, min_value=1)
 
 ########################################################################################################################
@@ -254,7 +255,7 @@ with col4:
         st.download_button(
             label="Download CON CSV",
             data=df_con.to_csv(index=False, sep=","),  # Convert DataFrame to CSV format
-            file_name=f"{PREFIX}_Raw_CCMN_File.csv",  # Specify the desired file name
+            file_name=f"{PREFIX}_Raw_CON_File.csv",  # Specify the desired file name
             mime="text/csv",  # Set the MIME type
         )
     except:
@@ -381,6 +382,7 @@ with col8:
                 PVAL_CCMN_PATH,
                 ENRICHED_META_PATH,
                 RANDOM_PVAL_CCMN_PATH,
+                CALC_CENTRALITIES,
             )
         st.write("CCMN finished")
     try:
@@ -504,5 +506,6 @@ with col9:
                 PVAL_CCMN_PATH,
                 ENRICHED_META_PATH,
                 RANDOM_PVAL_CCMN_PATH,
+                CALC_CENTRALITIES,
             )
             st.write("Pruning Created")

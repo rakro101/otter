@@ -18,6 +18,7 @@ def add_sub_pval_to_ccmn(
     PVAL_CCMN_PATH,
     ENRICHED_META_PATH,
     RANDOM_PVAL_CCMN_PATH,
+    CALC_CENTRALITIES,
 ):
     print("Calculating p-value substituation for CCMN")
     # df_spec = pd.read_csv(ABUNDANCES_FILE, sep=";", index_col=0)
@@ -51,7 +52,7 @@ def add_sub_pval_to_ccmn(
     enrichment = True
     if enrichment:
         df_meta_out = enriched_meta_table(
-            df_spec, df_meta, df_env, df_con, df_ccm_con, save_meta_path
+            df_spec, df_meta, df_env, df_con, df_ccm_con, save_meta_path,CALC_CENTRALITIES
         )
         print(df_meta_out.head())
     print("End of Calculating p-value substituation for CCMN")

@@ -34,6 +34,7 @@ def calculate_permutation_matrix(
     df, num_permutations=1000, num_samples=1000, num_cores=20
 ):
     # Extracting values as a matrix
+    print("Calculating permutation matrix !!!")
     matrix = df.values
 
     # Permuting entries 1000 times
@@ -77,11 +78,7 @@ def calculate_permutation_matrix(
     return df_all
 
 
-def get_pvalue(nmi, sample):
-    shuffled_temp = sample.copy()
-    shuffle(shuffled_temp["corr"], random_state=42)
-    temp_shuffled = shuffled_temp["corr"]  # .head(5000)
-    len(temp_shuffled[temp_shuffled < nmi])
+def get_pvalue(nmi, temp_shuffled):
     p_val = len(temp_shuffled[temp_shuffled > nmi]) / len(temp_shuffled)
     return p_val
 
@@ -105,9 +102,31 @@ def get_ccm_pvalues(
     random_df = df_all.head(con_connections)
     df_pvalues = df_ccm_con[["from", "to", "corr", "from_clu", "to_clu"]]
     print("Add permutation p- values")
-    df_pvalues["p-value"] = df_pvalues["corr"].apply(
-        lambda x: get_pvalue(x, df_all.head(con_connections))
-    )
+    null_hypo = df_all.head(con_connections)
+    shuffle(null_hypo["corr"], random_state=42)
+    temp_shuffled = null_hypo["corr"].to_numpy() # .head(5000)
+    #df_pvalues["p-value"] = df_pvalues["corr"].apply(
+    #    lambda x: get_pvalue(x, temp_shuffled)
+    #)
+    #df_pvalues["p-value"] = (df_pvalues["corr"].values[:,None] < temp_shuffled).mean(axis=1)
+    ########
+    import dask.dataframe as dd
+    num_partitions = 100
+    # Assuming df_pvalues is your pandas DataFrame
+    ddf_pvalues = dd.from_pandas(df_pvalues,
+                                 npartitions=num_partitions)  # num_partitions is the number of partitions you want
+
+    # Define your computation function
+    def compute_pvalue(chunk):
+        return (chunk["corr"].values[:, None] < temp_shuffled).mean(axis=1)
+
+    # Apply the computation function to each partition
+    ddf_pvalues["p-value"] = ddf_pvalues.map_partitions(compute_pvalue)
+
+    # Convert back to Pandas DataFrame if needed
+    df_pvalues_with_pvalue = ddf_pvalues.compute()
+    df_pvalues = df_pvalues_with_pvalue
+    #####
     print("Added permutation p- values. Now filtering")
     pruned_ccm = df_pvalues[df_pvalues["p-value"] < 0.05]
     if mod == "random_df":
