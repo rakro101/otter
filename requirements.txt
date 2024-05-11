@@ -2,7 +2,6 @@ numpy
 pandas
 networkx
 jupyter
-notebook
 ennemi
 scipy
 matplotlib
