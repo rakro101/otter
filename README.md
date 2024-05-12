@@ -4,6 +4,12 @@ Network Analysis for Co-Occurence, Louvain Clustering and Convergent Cross Mappi
 The code will be avaible after acceptance of our journal article: Beyond blooms: 
 A novel time series analysis framework predicts seasonal keystone species and sheds light on ecosystem stability.
 
+### Projects:
+- BeyondBlooms2024 (https://www.biorxiv.org/content/10.1101/2024.03.11.583746v3)
+Raw metabarcoding reads will be accessible under https://www.ebi.ac.uk/ena/browser/view/PRJEB43905.
+
+- FramPhages2024 (In preparation)
+
 
 ### Installation
 Python version 3.10
@@ -24,10 +30,8 @@ The CCM modul is based on https://github.com/PrinceJavier/causal_ccm.
 The Energy Landscape Analysis is based on: https://github.com/kecosz/rELA
 
 
-### Data
-Raw metabarcoding reads will be accessible under https://www.ebi.ac.uk/ena/browser/view/PRJEB43905.
-
-
 ### Acknowledgements
 Thanks to Kenta Suzuki for supporting us in adapting rELA to our needs.
 Thanks to Prince Joseph Erneszer Javier for developing CCM package in python.
+
+
