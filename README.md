@@ -1,11 +1,23 @@
 [![DOI:10.1101/2024.03.11.583746](http://img.shields.io/badge/DOI-<10.1101/2024.03.11.583746>-<#00000>.svg)](https://doi.org/10.1101/2024.03.11.583746)
 # otter
-Network Analysis for Co-Occurence, Louvain Clustering and Convergent Cross Mapping.
-The code will be avaible after acceptance of our journal article: Beyond blooms: 
-A novel time series analysis framework predicts seasonal keystone species and sheds light on ecosystem stability.
+<div style="float: left;">
+    <img src="img/otter_logo.jpeg" alt="Otter Logo" width="200"/>
+</div>
+<div style="text-align: right;">
+<br>
+<br>
+<br>
+    The otter Framework combines community network analysis using Co-Occurrence networks, Louvain Clustering and Convergent Cross Mapping networks.
+<br>
+<br>
+<br>
+<br>
+</div>
+
+
 
 ### Projects:
-- BeyondBlooms2024 (https://www.biorxiv.org/content/10.1101/2024.03.11.583746v3)
+- BeyondBlooms2024 A novel time series analysis framework predicts seasonal keystone species and sheds light on ecosystem stability. (https://www.biorxiv.org/content/10.1101/2024.03.11.583746v3)
 Raw metabarcoding reads will be accessible under https://www.ebi.ac.uk/ena/browser/view/PRJEB43905.
 
 - FramPhages2024 (In preparation)
