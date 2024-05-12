@@ -1,7 +1,7 @@
 [![DOI:10.1101/2024.03.11.583746](http://img.shields.io/badge/DOI-<10.1101/2024.03.11.583746>-<#00000>.svg)](https://doi.org/10.1101/2024.03.11.583746)
 # otter
 <div style="float: left;">
-        <img src="img/otter_logo.jpeg" alt="Otter Logo" width="200" title="This images was created using GENAI (DALL-E 3)."/>
+        <img src="img/otter_logo-removebg.png" alt="Otter Logo" width="200" title="This images was created using GENAI (DALL-E 3)."/>
 </div>
 <div style="text-align: right;">
 <br>
