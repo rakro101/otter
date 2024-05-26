@@ -213,6 +213,13 @@ def enriched_meta_table(
     meta_data_combined["louvain_label_color"] = meta_data_combined[
         "LouvainLabelD"
     ].apply(lambda x: d_apply(x, color_label_dict))
+    try:
+        shape_dict = {"Eukaryota": "Diamond", "Bacteria": "Ellipse", "Phages": "V", "Archea": "Octagon",
+                      "Zooplankton": "Triangle", }
+        meta_data_combined["Shape"] = meta_data_combined["Kingdom"].map(shape_dict)
+    except KeyError as ke:
+        print(ke)
+        print("No Kingdom found in DF")
     meta_data_combined.to_csv(save_meta_path, index=False)
     print(meta_data_combined.head())
 

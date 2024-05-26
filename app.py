@@ -49,6 +49,8 @@ with col1:
     if uploaded_file1 is not None:
         df1 = pd.read_csv(uploaded_file1, sep=separator1, index_col=0)
         df1.index = df1.index.astype(str).str.replace(";", "_")
+        #df1.drop_duplicates(inplace=
+        df1 = df1[~df1.index.duplicated(keep='first')]
         if checkbox_value1:
             df1 = df1.T
         # df1 = df1.T.head(50).T
@@ -66,6 +68,8 @@ with col2:
     if uploaded_file2 is not None:
         df2 = pd.read_csv(uploaded_file2, sep=separator2, index_col=0)
         df2.index = df2.index.astype(str).str.replace(";","_")
+        df2 = df2[~df2.index.duplicated(keep='first')]
+        #df2.drop_duplicates(inplace=True)
         if checkbox_value2:
             df2 = df2.T
         num_events2 = df2.shape[0]
@@ -94,9 +98,12 @@ with col3:
     # Dropdown to select separator
     separator3 = st.selectbox("Select Separator 3", [";", ",", "\t", "\s"])
     uploaded_file3 = st.file_uploader("Upload CSV File 3", type=["csv"])
-    if uploaded_file3 is not None:
+    if uploaded_file3 is not None and uploaded_file1 is not None:
         df3 = pd.read_csv(uploaded_file3, sep=separator3, index_col=0)
         df3.index = df3.index.astype(str).str.replace(";", "_")
+        df3 = df3[~df3.index.duplicated(keep='first')]
+        df3 = df3[df3.index.isin(df1.columns)]
+        #df3.drop_duplicates(inplace=True)
         if checkbox_value3:
             df3 = df3.T
         num_events3 = df3.shape[0]
@@ -202,6 +209,7 @@ with col00:
                 st.write("Abundance (df1) columns are rows in Taxa (df3) ✅")
             else:
                 st.write("Abundance (df1) columns are not rows in Taxa (df3) ❌")
+                st.write(f"df1 cols:{len(df1.columns)}  df3 index: {len(df3.index)}")
         else:
             st.write("Some dataframes are missing ❌")
 
