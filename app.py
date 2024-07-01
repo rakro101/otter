@@ -120,7 +120,7 @@ with col1:
     with my_expander1:
         st.title("CON Parameters")
         # Input fields
-        HELLENIGER_NORM = st.checkbox("Helleniger Norm", value=False)
+        HELLENIGER_NORM = st.checkbox("Hellinger Norm", value=False)
         CON_SYM = st.checkbox("Connectivity Symmetry", value=True)
         CON_METHOD = st.selectbox("Connectivity Method", ["Pearson_FFT", "Other"])
         FFT_COEFFS = st.number_input("FFT Coefficients", value=14, min_value=1)
