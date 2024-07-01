@@ -16,9 +16,27 @@ __credits__ = (
 # Set page layout to wide
 st.set_page_config(layout="wide")
 
+
+
 # Title of the web app
-st.title("Otter: Tool for Community Analysis")
-col0, col00 = st.columns(2)
+head0, head00, head000 = st.columns([4, 1, 4])
+with head0:
+    st.title("Otter: Tool for Community Analysis")
+
+with head00:
+    try:
+        st.image('img/otter_logo-remove-_bg.png', use_column_width=True)
+    except:
+        pass
+
+with head000:
+    try:
+        st.image('img/awi-logo.png', caption='The development of this project is support by the Alfred Wegener Institute.', use_column_width=True)
+    except:
+        pass
+
+
+col0, col00 = st.columns([3, 3])
 
 ########################################################################################################################
 # Folder structure and Run name
@@ -34,6 +52,7 @@ with col0:
     RUN_ID = st.text_input("Fill in a Run ID", value="MyExperimentRun")
 
 
+
 # Create sub-containers for file uploads
 col1, col2, col3 = st.columns(3)
 ########################################################################################################################
@@ -42,10 +61,10 @@ col1, col2, col3 = st.columns(3)
 # Upload three CSV files
 with col1:
     st.title("Abundance")
-    checkbox_value1 = st.checkbox('Transpose DF1')
+    checkbox_value1 = st.checkbox('Transpose DF1', help="Swap rows and columns")
     # Dropdown to select separator
-    separator1 = st.selectbox("Select Separator 1", [";", ",", "\t", "\s"])
-    uploaded_file1 = st.file_uploader("Upload CSV File 1", type=["csv"])
+    separator1 = st.selectbox("Select Separator 1", [";", ",", "\t", "\s"],help="Choose the separator for your inputfile.")
+    uploaded_file1 = st.file_uploader("Upload CSV File 1", type=["csv"],help="Uploaded CSV File")
     if uploaded_file1 is not None:
         df1 = pd.read_csv(uploaded_file1, sep=separator1, index_col=0)
         df1.index = df1.index.astype(str).str.replace(";", "_")
@@ -59,12 +78,12 @@ with col1:
         st.write("Abundance: {} events, {} asvs".format(num_events1, num_asvs1))
         st.dataframe(df1)
 
-with col2:
+with col3:
     st.title("Environment")
-    checkbox_value2 = st.checkbox('Transpose DF2')
+    checkbox_value2 = st.checkbox('Transpose DF2', help="Swap rows and columns")
     # Dropdown to select separator
-    separator2 = st.selectbox("Select Separator 2", [";", ",", "\t", "\s"])
-    uploaded_file2 = st.file_uploader("Upload CSV File 2", type=["csv"])
+    separator2 = st.selectbox("Select Separator 2", [";", ",", "\t", "\s"],help="Choose the separator for your inputfile.")
+    uploaded_file2 = st.file_uploader("Upload CSV File 2", type=["csv"],help="Uploaded CSV File")
     if uploaded_file2 is not None:
         df2 = pd.read_csv(uploaded_file2, sep=separator2, index_col=0)
         df2.index = df2.index.astype(str).str.replace(";","_")
@@ -92,12 +111,12 @@ with col2:
             st.dataframe(df2)
 
 
-with col3:
+with col2:
     st.title("Taxa")
-    checkbox_value3 = st.checkbox('Transpose DF3')
+    checkbox_value3 = st.checkbox('Transpose DF3', help="Swap rows and columns")
     # Dropdown to select separator
-    separator3 = st.selectbox("Select Separator 3", [";", ",", "\t", "\s"])
-    uploaded_file3 = st.file_uploader("Upload CSV File 3", type=["csv"])
+    separator3 = st.selectbox("Select Separator 3", [";", ",", "\t", "\s"],help="Choose the separator for your inputfile.")
+    uploaded_file3 = st.file_uploader("Upload CSV File 3", type=["csv"],help="Uploaded CSV File")
     if uploaded_file3 is not None and uploaded_file1 is not None:
         df3 = pd.read_csv(uploaded_file3, sep=separator3, index_col=0)
         df3.index = df3.index.astype(str).str.replace(";", "_")
@@ -120,44 +139,45 @@ with col1:
     with my_expander1:
         st.title("CON Parameters")
         # Input fields
-        HELLENIGER_NORM = st.checkbox("Hellinger Norm", value=False)
-        CON_SYM = st.checkbox("Connectivity Symmetry", value=True)
-        CON_METHOD = st.selectbox("Connectivity Method", ["Pearson_FFT", "Other"])
-        FFT_COEFFS = st.number_input("FFT Coefficients", value=14, min_value=1)
+        HELLENIGER_NORM = st.checkbox("Hellinger Norm", value=False, help="Use Hellinger Normalisation")
+        CON_SYM = st.checkbox("Connectivity Symmetry", value=True, help="Remove directed egdes")
+        CON_METHOD = st.selectbox("Connectivity Method", ["Pearson_FFT", "Other"],help="Select a co-occurrence measurement")
+        FFT_COEFFS = st.number_input("FFT Coefficients", value=14, min_value=1,help="Select the number of FFT coefficients")
         CON_TR = st.slider(
             "Connectivity Threshold",
             min_value=0.0,
             max_value=1.0,
             value=0.70,
             step=0.01,
+            help="Select the connectivity threshold for edge weights, edges below this value will be removed."
         )
         CON_ALPHA = st.slider(
-            "Connectivity Alpha", min_value=0.0, max_value=1.0, value=0.05, step=0.01
+            "Connectivity Alpha", min_value=0.0, max_value=1.0, value=0.05, step=0.01,help="Select the connectivity threshold the pvalue, edges below this value will be removed."
         )
 
 with col2:
     my_expander2 = st.expander(label="Expand CCM Params")
     with my_expander2:
         st.title("CCM Parameters")
-        CCMN_SYM = st.checkbox("CCMN Symmetry", value=False)
-        CCMN_METHOD = st.selectbox("CCMN Method", ["NMI", "Other"])
+        CCMN_SYM = st.checkbox("CCMN Symmetry", value=False, help="False if methods is non symmetric")
+        CCMN_METHOD = st.selectbox("CCMN Method", ["NMI", "Other"],help="Select the CCMN Method")
         CCMN_TR = st.slider(
-            "CCMN Threshold", min_value=0.0, max_value=1.0, value=0.00, step=0.01
+            "CCMN Threshold", min_value=0.0, max_value=1.0, value=0.00, step=0.01, help="Select the cut-off value for the edge weighs, edge below will be removed.",
         )
-        CCMN_ALPHA = st.radio("CCMN Alpha", ["yes", "no"])
-        LOUVAIN_RES = st.number_input("Louvain Resolution", value=1, min_value=1)
+        CCMN_ALPHA = st.radio("CCMN Alpha", ["yes", "no"], help="Select the cut-off of the p_value. Not implemented for CCM using NMI.")
+        LOUVAIN_RES = st.number_input("Louvain Resolution", value=1, min_value=1, help="Select the Louvain resolution.")
 
 with col3:
     my_expander3 = st.expander(label="Expand Permu Params")
     with my_expander3:
         # Sub p-value Parameters
         st.title("Permutation Parameters")
-        CALC_CENTRALITIES = st.selectbox("Centralities", [False, True])
+        CALC_CENTRALITIES = st.selectbox("Centralities", [False, True], help="If checked, theCentralities will be calculated.")
         NUM_PERMUTATIONS = st.number_input(
-            "Number of Permutations", value=100, min_value=1
+            "Number of Permutations", value=100, min_value=1, help="Number of permutations to calculate the permutation significance value."
         )
-        NUM_SAMPLES = st.number_input("Number of Samples", value=100, min_value=10)
-        NUM_CORES = st.number_input("Number of Cores", value=10, min_value=1)
+        NUM_SAMPLES = st.number_input("Number of Samples", value=100, min_value=10, help="Number of samples to calculate the permutation significance")
+        NUM_CORES = st.number_input("Number of Cores", value=10, min_value=1, help="Number of cores on your machine to calculate the permutation significance value.")
 
 ########################################################################################################################
 # Output files
@@ -214,7 +234,7 @@ with col00:
             st.write("Some dataframes are missing ❌")
 
     # Display the check result
-    if st.button("Check input data"):
+    if st.button("Check input data", help="Check if you input data matches our criteria"):
         try:
             check_dataframes_exist(df1, df2, df3)
         except:
@@ -230,7 +250,7 @@ col4, col5, col6, col7, col8, col9 = st.columns(6)
 
 with col4:
     st.subheader("CON")
-    if st.button("Create Co-occurrence Network"):
+    if st.button("Create Co-occurrence Network", help="Create Co-occurrence Network"):
         print("Creating Co-occurrence Network")
         from gui_create_con import create_con_network
 
@@ -265,6 +285,7 @@ with col4:
             data=df_con.to_csv(index=False, sep=","),  # Convert DataFrame to CSV format
             file_name=f"{PREFIX}_Raw_CON_File.csv",  # Specify the desired file name
             mime="text/csv",  # Set the MIME type
+            help = "Download the file."
         )
     except:
         st.write("Con not calculated")
@@ -272,7 +293,7 @@ with col4:
 
 with col5:
     st.subheader("CCMN")
-    if st.button("Create CCM Network"):
+    if st.button("Create CCM Network", help="Create CCM Network"):
         print("Creating CCM Network")
         from gui_create_ccm import create_ccmn_network
 
@@ -306,13 +327,14 @@ with col5:
             ),  # Convert DataFrame to CSV format
             file_name=f"{PREFIX}_Raw_CCMN_File.csv",  # Specify the desired file name
             mime="text/csv",  # Set the MIME type
+            help="Download the file."
         )
     except:
         st.write("CCM not calculated")
 
 with col6:
     st.subheader("Louvain")
-    if st.button("Create Louvain Cluster Network"):
+    if st.button("Create Louvain Cluster Network", help="Create Louvain Clusters."):
         print("Creating Co-occurrence Network")
         from gui_create_louvain import compute_louvain
 
@@ -338,13 +360,14 @@ with col6:
             ),  # Convert DataFrame to CSV format
             file_name=f"{PREFIX}_Louvain_Meta.csv",  # Specify the desired file name
             mime="text/csv",  # Set the MIME type
+            help="Download the file."
         )
     except:
         st.write("Louvain not calculated")
 
 with col7:
     st.subheader("Mapping")
-    if st.button("Create Mapping Network"):
+    if st.button("Create Mapping Network", help="Create a mapping network"):
         print("Create Mapping Network")
         from gui_create_mapping import ccmn_con_mapping
 
@@ -366,13 +389,14 @@ with col7:
             data=df_map.to_csv(index=False, sep=","),  # Convert DataFrame to CSV format
             file_name=f"{PREFIX}_Map.csv",  # Specify the desired file name
             mime="text/csv",  # Set the MIME type
+            help="Download the file."
         )
     except:
         st.write("Mapping not calculated")
 
 with col8:
     st.subheader("Permutation")
-    if st.button("Create Permutation Pruning Network"):
+    if st.button("Create Permutation Pruning Network", help="Create the permutation network"):
         print("Create Permutation Pruning Network")
         from gui_create_permu_ccmn import add_sub_pval_to_ccmn
 
@@ -417,6 +441,7 @@ with col8:
             ),  # Convert DataFrame to CSV format
             file_name=f"{PREFIX}_Pruned_CCMN.csv",  # Specify the desired file name
             mime="text/csv",  # Set the MIME type
+            help="Download the file."
         )
         df_enrich = pd.read_csv(ENRICHED_META_PATH, sep=",")
         df_enrich.drop(columns="Unnamed: 0", inplace=True)
@@ -429,6 +454,7 @@ with col8:
             ),  # Convert DataFrame to CSV format
             file_name=f"{PREFIX}_Enriched_Meta_File.csv",  # Specify the desired file name
             mime="text/csv",  # Set the MIME type
+            help="Download the file."
         )
         df_non_pruned = pd.read_csv(PVAL_CCMN_PATH, sep=";")
         df_non_pruned.drop(columns="Unnamed: 0", inplace=True)
@@ -441,13 +467,14 @@ with col8:
             ),  # Convert DataFrame to CSV format
             file_name=f"{PREFIX}_Non_PrunedP_CCMN_File.csv",  # Specify the desired file name
             mime="text/csv",  # Set the MIME type
+            help="Download the file."
         )
     except:
         st.write("Pruning not calculated")
 
 with col9:
     st.subheader("Run all")
-    if st.button("Run all"):
+    if st.button("Run all",help="Run all Calculations: Step by step."):
         with st.spinner("Create All Nets..."):
             from gui_create_con import create_con_network
             from gui_create_ccm import create_ccmn_network
