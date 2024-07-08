@@ -195,12 +195,12 @@ CON_LOUVAIN_META_PATH = f"{PREFIX}/{RUN_ID}_Louvain_{LOUVAIN_RES}_{CON_METHOD}_H
 
 CCMN_CON_MAP_PATH = f"{PREFIX}/{RUN_ID}_Hellinger_{HELLENIGER_NORM}_{FFT_COEFFS}_CCM_CON_MAP_Network.csv"
 
-PVAL_CCMN_PATH = f"{PREFIX}/{RUN_ID}_Hellinger_{HELLENIGER_NORM}_{FFT_COEFFS}_PV_CCM_CON_MAP_Network.csv"
-PRUNED_PVAL_CCMN_PATH = f"{PREFIX}/{RUN_ID}_Hellinger_{HELLENIGER_NORM}_{FFT_COEFFS}_Pruned_CCM_CON_MAP_Network.csv"
-ENRICHED_META_PATH = f"{PREFIX}/{RUN_ID}_Hellinger_{HELLENIGER_NORM}_{FFT_COEFFS}_Enriched_Hellinger_14_complete_network_table_meta_CON_CCM.csv"
+PVAL_CCMN_PATH = f"{PREFIX}/{RUN_ID}_Hellinger_{HELLENIGER_NORM}_{FFT_COEFFS}_Samples_{NUM_SAMPLES}_Permus_{NUM_PERMUTATIONS}_PV_CCM_CON_MAP_Network.csv"
+PRUNED_PVAL_CCMN_PATH = f"{PREFIX}/{RUN_ID}_Hellinger_{HELLENIGER_NORM}_{FFT_COEFFS}_Samples_{NUM_SAMPLES}_Permus_{NUM_PERMUTATIONS}_Pruned_CCM_CON_MAP_Network.csv"
+ENRICHED_META_PATH = f"{PREFIX}/{RUN_ID}_Hellinger_{HELLENIGER_NORM}_{FFT_COEFFS}_Samples_{NUM_SAMPLES}_Permus_{NUM_PERMUTATIONS}_Enriched_Hellinger_14_complete_network_table_meta_CON_CCM.csv"
 
 RANDOM_PVAL_CCMN_PATH = (
-    f"{PREFIX}/{RUN_ID}_Hellinger_{HELLENIGER_NORM}_{FFT_COEFFS}_RANDOM_Network.csv"
+    f"{PREFIX}/{RUN_ID}_Hellinger_{HELLENIGER_NORM}_{FFT_COEFFS}_Samples_{NUM_SAMPLES}_Permus_{NUM_PERMUTATIONS}_RANDOM_Network.csv"
 )
 
 
@@ -439,7 +439,7 @@ with col8:
             data=df_pruned_ccmn.to_csv(
                 index=False, sep=","
             ),  # Convert DataFrame to CSV format
-            file_name=f"{PREFIX}_Pruned_CCMN.csv",  # Specify the desired file name
+            file_name=f"{PREFIX}_Pruned_CCMN_Samples_{NUM_SAMPLES}_Permus_{NUM_PERMUTATIONS}.csv",  # Specify the desired file name
             mime="text/csv",  # Set the MIME type
             help="Download the file."
         )
@@ -452,7 +452,7 @@ with col8:
             data=df_enrich.to_csv(
                 index=False, sep=","
             ),  # Convert DataFrame to CSV format
-            file_name=f"{PREFIX}_Enriched_Meta_File.csv",  # Specify the desired file name
+            file_name=f"{PREFIX}_Enriched_Meta_File_Samples_{NUM_SAMPLES}_Permus_{NUM_PERMUTATIONS}_.csv",  # Specify the desired file name
             mime="text/csv",  # Set the MIME type
             help="Download the file."
         )
@@ -465,7 +465,7 @@ with col8:
             data=df_non_pruned.to_csv(
                 index=False, sep=","
             ),  # Convert DataFrame to CSV format
-            file_name=f"{PREFIX}_Non_PrunedP_CCMN_File.csv",  # Specify the desired file name
+            file_name=f"{PREFIX}_Non_PrunedP_CCMN_File_Samples_{NUM_SAMPLES}_Permus_{NUM_PERMUTATIONS}_.csv",  # Specify the desired file name
             mime="text/csv",  # Set the MIME type
             help="Download the file."
         )
