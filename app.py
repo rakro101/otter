@@ -45,9 +45,13 @@ with col0:
     # Input fields for PREFIX and RUN_ID
     PREFIX = st.text_input("Fill in a Prefix", value="gui/tables")
     if PREFIX is not None:
+        PREFIX_FIG = PREFIX.replace(PREFIX.split("/")[-1], "figures")
         if not os.path.exists(PREFIX):
             os.makedirs(PREFIX)
             st.write(f"Folder '{PREFIX}' created")
+        if not os.path.exists(PREFIX_FIG):
+            os.makedirs(PREFIX_FIG)
+            st.write(f"Folder '{PREFIX_FIG}' created")
 
     RUN_ID = st.text_input("Fill in a Run ID", value="MyExperimentRun")
 
@@ -544,3 +548,22 @@ with col9:
                 CALC_CENTRALITIES,
             )
             st.write("Pruning Created")
+
+st.subheader("AI Embedding")
+if st.button("Calculate Cluster Centroids distances",help="Calculate Cluster Centroids"):
+    from gui_ai_umap_embedding import main_embeddings
+    df_spec = df1
+    df_ccm = pd.read_csv(PRUNED_PVAL_CCMN_PATH, sep=";")
+    meta = pd.read_csv(ENRICHED_META_PATH, sep=",")
+    umap_3d, distance_matrix = main_embeddings(df_spec, meta, df_ccm, hellinger=False, num_coefficients = FFT_COEFFS,save_pre_fig =PREFIX_FIG, save_pre_tab =PREFIX)
+    plotcol1, plotcol2  = st.columns(2)
+    st.write("Cluster Centroids distances Created")
+    with plotcol1:
+        st.write("Cluster Centroids")
+        st.plotly_chart(umap_3d, use_container_width=True)
+    with plotcol2:
+        st.write("Unpruned Distance Matrix")
+        st.pyplot(distance_matrix)
+
+
+
