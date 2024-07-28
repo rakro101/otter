@@ -7,10 +7,47 @@ from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.spatial.distance import pdist, squareform
+import json
 
 SEED = 42
 np.random.seed(SEED)
 
+def save_dict_to_json(dictionary, file_path):
+    """
+    Save a Python dictionary as a JSON file.
+
+    Parameters:
+    dictionary (dict): The dictionary to save.
+    file_path (str): The path to the file where the dictionary should be saved.
+    """
+    with open(file_path, 'w') as json_file:
+        json.dump(dictionary, json_file, indent=4)
+
+def pad_ccm_matrix(ccm_matrix, original_nodes, all_nodes):
+    """
+    Pad a smaller M x M ccm_matrix into a larger N x N matrix, keeping entries at the correct positions.
+
+    Parameters:
+    ccm_matrix (numpy.ndarray): The smaller M x M matrix to be padded.
+    original_nodes (list): The list of M nodes corresponding to the ccm_matrix.
+    all_nodes (list): The list of N nodes corresponding to the desired larger matrix.
+
+    Returns:
+    numpy.ndarray: The padded N x N matrix.
+    """
+    # Create a mapping from node to its index in the all_nodes list
+    node_index_map = {node: idx for idx, node in enumerate(all_nodes)}
+
+    # Initialize a larger N x N matrix with zeros
+    N = len(all_nodes)
+    padded_matrix = np.zeros((N, N))
+
+    # Place the values of the ccm_matrix into the correct positions in the padded_matrix
+    for i, node_i in enumerate(original_nodes):
+        for j, node_j in enumerate(original_nodes):
+            padded_matrix[node_index_map[node_i], node_index_map[node_j]] = ccm_matrix[i, j]
+
+    return padded_matrix
 
 def calculate_fourier_coefficients(series, num_coefficients):
     """ Calculate Fourier Coefficients from the time series"""
@@ -49,6 +86,7 @@ def plot_distance_matrix_pruned(result, save_path_temp = f'Tutorial/figures/Sup_
     sns.set_style('white')
     plt.savefig(save_path_temp, dpi=200, bbox_inches='tight')
     plt.show()
+    return plt.gcf()
 
 def plot_2d_umap_embedding(U_embedding, meta, save_path="Tutorial/figures/PCA_Umap2_seaborn.png"):
     sns.set(style="whitegrid")
@@ -125,22 +163,34 @@ def calculate_distance_matrix(df_fft_spec,df_ccm, mfd, save_path ="Tutorial/tabl
     distance_matrix = squareform(distance_vector)
     # Display the distance matrix
     distance_matrix_rounded = np.round(distance_matrix, 0)
-
+    print("??????" * 10)
+    print(centroids.index.tolist())
+    print("?????" * 10)
     df_ccm["from_clu"] = df_ccm["from"].map(mfd)
     df_ccm["to_clu"] = df_ccm["to"].map(mfd)
     matrix_3b = df_ccm[["from_clu", "to_clu", "corr"]].groupby(["to_clu", "from_clu"]).agg(np.mean).reset_index()
     # Create a matrix using pivot
     matrix_pivot = matrix_3b.pivot(index='to_clu', columns='from_clu', values='corr')
-
+    print("+++++++" * 10)
+    print(matrix_pivot)
+    print("+++++++" * 10)
     matrix_pivot.to_csv(save_path, sep=";")
 
     ccm_matrix = matrix_pivot
     ccm_matrix = ccm_matrix.fillna(0)
     ccm_matrix = pd.DataFrame(ccm_matrix)
+    print("ppp"*17)
+    print(ccm_matrix)
+    ccm_matrix.rename(columns={x: str(x) for x in ccm_matrix.columns.tolist()}, inplace=True)
+    ccm_matrix["new_index"] = ccm_matrix.index
+    ccm_matrix["new_index"] = ccm_matrix["new_index"].apply(lambda x: str(x))
+    ccm_matrix["new_index"].astype("str")
+    ccm_matrix.set_index("new_index", inplace=True)
+    print("ppp" * 17)
     mask_for_connections = ccm_matrix[ccm_matrix == 0]
     mask_for_connections = mask_for_connections.fillna(1)
 
-    df_distance_matrix_rounded =  pd.DataFrame(distance_matrix_rounded)
+    df_distance_matrix_rounded = pd.DataFrame(distance_matrix_rounded)
     no_masking = df_distance_matrix_rounded[df_distance_matrix_rounded != df_distance_matrix_rounded]
     print(no_masking)
     no_masking = no_masking.fillna(1)
@@ -154,12 +204,18 @@ def calculate_distance_matrix(df_fft_spec,df_ccm, mfd, save_path ="Tutorial/tabl
 
     # distance masked with CCMNs
     # ToDo: Add padding for CCMN matrix to replace missing with 0.
-    try:
-        masked_dist_map = np.multiply(mask_for_connections, distance_matrix_rounded)
-    except Exception as e:
-        print(e)
-        print("NO MATCHING CCM MATCHING Distance Matrix")
-        masked_dist_map = dist_map
+    orignal_nodes =ccm_matrix.columns.tolist()
+    #
+    all_nodes = centroids.index.tolist()
+    print(orignal_nodes)
+    print(all_nodes)
+
+    mask_for_connections = pad_ccm_matrix(mask_for_connections.values, original_nodes=orignal_nodes, all_nodes=all_nodes)
+    print("+++++++"*10)
+    print(mask_for_connections)
+    print("+++++++" * 10)
+
+    masked_dist_map = np.multiply(mask_for_connections, distance_matrix_rounded)
     return dist_map, masked_dist_map, centroids
 
 def fourier_transformed_spec(df_spec, list_off_con, clu_dict, pca_n_components=10, save_path = "Tutorial/tables/Tutorial_latentspacelatent_space.csv",num_coefficients=14):
@@ -216,16 +272,16 @@ def main_embeddings(df_spec,meta, df_ccm, hellinger=True, num_coefficients=14, s
     plot_3d_umap = plot_3d_umap_embedding(V_embedding, meta, centroids,
                            save_path=f"{save_pre_fig}/Sup_Figure_S4_PCA_Umap3d_seaborn.png")
 
-    plot_distance_matrix_pruned(masked_dist_map,
-                                save_path_temp=f"{save_pre_fig}/Sup_Figure_S6_Distance_Connections_heatmap_ALL.png")
+    distance_matrix_pruned = plot_distance_matrix_pruned(masked_dist_map,
+                                                         save_path_temp=f"{save_pre_fig}/Pruned_Distance_Connections_heatmap_ALL.png")
 
     distance_matrix_unpruned =plot_distance_matrix_unpruned(dist_map,
-                                  save_path_temp=f"{save_pre_fig}/Sup_Figure_S5_Distance_ALL_Connections_heatmap_ALL.png")
+                                  save_path_temp=f"{save_pre_fig}/Unpruned_Distance_ALL_Connections_heatmap_ALL.png")
 
     print("Cluster distribution:")
     print(df_fft_spec["clu"].value_counts())
     print(centroids)
-    return plot_3d_umap, distance_matrix_unpruned
+    return plot_3d_umap, distance_matrix_unpruned, distance_matrix_pruned
 
 if __name__ == "__main__":
     ABUNDANCES_FILE = "BeyondBlooms2024/data/F4_euk_abundance_table.csv"

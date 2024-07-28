@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import os
+from gui_ai_umap_embedding import save_dict_to_json
+import getpass
+from datetime import datetime
 
 __author__ = (
     "Raphael Kronberg Department of MMBS, MatNat Faculty," " Heinrich-Heine-University"
@@ -207,7 +210,33 @@ RANDOM_PVAL_CCMN_PATH = (
     f"{PREFIX}/{RUN_ID}_Hellinger_{HELLENIGER_NORM}_{FFT_COEFFS}_Samples_{NUM_SAMPLES}_Permus_{NUM_PERMUTATIONS}_RANDOM_Network.csv"
 )
 
-
+log_text = {"CON_NETWORK_PATH":CON_NETWORK_PATH,
+            "CON_META_PATH":CON_META_PATH,
+            "CCMN_NETWORK_PATH":CCMN_NETWORK_PATH,
+            "CCMN_META_PATH":CCMN_META_PATH,
+            "CON_LOUVAIN_NETWORK_PATH":CON_LOUVAIN_NETWORK_PATH,
+            "CON_LOUVAIN_META_PATH":CON_LOUVAIN_META_PATH,
+            "CCMN_CON_MAP_PATH": CCMN_CON_MAP_PATH,
+            "PVAL_CCMN_PATH":PVAL_CCMN_PATH,
+            "PRUNED_PVAL_CCMN_PATH":PRUNED_PVAL_CCMN_PATH,
+            "ENRICHED_META_PATH":ENRICHED_META_PATH,
+            "RANDOM_PVAL_CCMN_PATH":RANDOM_PVAL_CCMN_PATH,
+            "HELLENIGER_NORM":HELLENIGER_NORM,
+            "CON_METHOD":CON_METHOD,
+            "FFT_COEFFS":FFT_COEFFS,
+            "CON_TR":CON_TR,
+            "CON_ALPHA":CON_ALPHA,
+            "CON_SYM":CON_SYM,
+            "CCMN_METHOD":CCMN_METHOD,
+            "CCMN_SYM":CCMN_SYM,
+            "LOUVAIN_RES":LOUVAIN_RES,
+            "NUM_PERMUTATIONS":NUM_PERMUTATIONS,
+            "NUM_SAMPLES":NUM_SAMPLES,
+            "NUM_CORES":NUM_CORES,
+            "CALC_CENTRALITIES":CALC_CENTRALITIES,
+            "USER": getpass.getuser(),
+            "TIME": datetime.now().isoformat()
+}
 ########################################################################################################################
 # Check Input  files
 ########################################################################################################################
@@ -241,6 +270,7 @@ with col00:
     if st.button("Check input data", help="Check if you input data matches our criteria"):
         try:
             check_dataframes_exist(df1, df2, df3)
+            save_dict_to_json(log_text, f"{PREFIX}/log_text_{RUN_ID}_.json")
         except:
             st.write("Some dataframes are missing ❌")
 
@@ -555,8 +585,8 @@ if st.button("Calculate Cluster Centroids distances",help="Calculate Cluster Cen
     df_spec = df1
     df_ccm = pd.read_csv(PRUNED_PVAL_CCMN_PATH, sep=";")
     meta = pd.read_csv(ENRICHED_META_PATH, sep=",")
-    umap_3d, distance_matrix = main_embeddings(df_spec, meta, df_ccm, hellinger=False, num_coefficients = FFT_COEFFS,save_pre_fig =PREFIX_FIG, save_pre_tab =PREFIX)
-    plotcol1, plotcol2  = st.columns(2)
+    umap_3d, distance_matrix, pruned_distance_matrix = main_embeddings(df_spec, meta, df_ccm, hellinger=False, num_coefficients = FFT_COEFFS,save_pre_fig =PREFIX_FIG, save_pre_tab =PREFIX)
+    plotcol1, plotcol2,  plotcol3 = st.columns(3)
     st.write("Cluster Centroids distances Created")
     with plotcol1:
         st.write("Cluster Centroids")
@@ -564,6 +594,9 @@ if st.button("Calculate Cluster Centroids distances",help="Calculate Cluster Cen
     with plotcol2:
         st.write("Unpruned Distance Matrix")
         st.pyplot(distance_matrix)
+    with plotcol3:
+        st.write("Pruned Distance Matrix")
+        st.pyplot(pruned_distance_matrix)
 
 
 
