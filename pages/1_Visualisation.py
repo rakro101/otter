@@ -1,6 +1,6 @@
+import numpy as np
 import plotly.express as px
 import scipy.optimize as opt
-import numpy as np
 import streamlit as st
 from scipy import interpolate
 

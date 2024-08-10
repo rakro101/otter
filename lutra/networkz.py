@@ -1,17 +1,19 @@
 """ Mutual Information Attractor Network - miat """
 
+import warnings
+from functools import partial
 from itertools import combinations, combinations_with_replacement
+from multiprocessing import Pool
+from typing import Any, List, Union
+
+import networkx as nx
+import numpy as np
+import pandas as pd
+import statsmodels.stats.multitest as smm
+from tqdm import tqdm
+
 from lutra.ccmn import ConvergentCrossMapping as ccmn
 from lutra.con import CoOccurrence as con
-import pandas as pd
-from tqdm import tqdm
-from typing import Union, Any, List
-import numpy as np
-import networkx as nx
-import warnings
-import statsmodels.stats.multitest as smm
-from multiprocessing import Pool
-from functools import partial
 
 np.random.seed(42)
 
@@ -147,7 +149,9 @@ class Networkz:
                 results = list(
                     tqdm(
                         pool.imap(
-                            calculate_causality_partial, column_pairs, chunksize=chunksize
+                            calculate_causality_partial,
+                            column_pairs,
+                            chunksize=chunksize,
                         ),
                         total=len(column_pairs),
                         desc="Calculating correlations",
@@ -166,7 +170,9 @@ class Networkz:
                 results = list(
                     tqdm(
                         pool.imap(
-                            calculate_causality_partial, column_pairs, chunksize=chunksize
+                            calculate_causality_partial,
+                            column_pairs,
+                            chunksize=chunksize,
                         ),
                         total=len(column_pairs),
                         desc="Calculating correlations",

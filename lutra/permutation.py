@@ -1,17 +1,20 @@
-import pandas as pd
-import numpy as np
-from lutra.ccmn import ConvergentCrossMapping as ccmn
-from multiprocessing import Pool
-from functools import partial
-from itertools import combinations
-from tqdm import tqdm
 import random
 import warnings
+from functools import partial
+from itertools import combinations
+from multiprocessing import Pool
+
+import numpy as np
+import pandas as pd
+from tqdm import tqdm
+
+from lutra.ccmn import ConvergentCrossMapping as ccmn
 
 warnings.filterwarnings("ignore")
-from lutra.transform import Transform
-from tqdm import tqdm
 from sklearn.utils import shuffle
+from tqdm import tqdm
+
+from lutra.transform import Transform
 
 np.random.seed(42)
 
@@ -104,17 +107,19 @@ def get_ccm_pvalues(
     print("Add permutation p- values")
     null_hypo = df_all.head(con_connections)
     shuffle(null_hypo["corr"], random_state=42)
-    temp_shuffled = null_hypo["corr"].to_numpy() # .head(5000)
-    #df_pvalues["p-value"] = df_pvalues["corr"].apply(
+    temp_shuffled = null_hypo["corr"].to_numpy()  # .head(5000)
+    # df_pvalues["p-value"] = df_pvalues["corr"].apply(
     #    lambda x: get_pvalue(x, temp_shuffled)
-    #)
-    #df_pvalues["p-value"] = (df_pvalues["corr"].values[:,None] < temp_shuffled).mean(axis=1)
+    # )
+    # df_pvalues["p-value"] = (df_pvalues["corr"].values[:,None] < temp_shuffled).mean(axis=1)
     ########
     import dask.dataframe as dd
+
     num_partitions = 100
     # Assuming df_pvalues is your pandas DataFrame
-    ddf_pvalues = dd.from_pandas(df_pvalues,
-                                 npartitions=num_partitions)  # num_partitions is the number of partitions you want
+    ddf_pvalues = dd.from_pandas(
+        df_pvalues, npartitions=num_partitions
+    )  # num_partitions is the number of partitions you want
 
     # Define your computation function
     def compute_pvalue(chunk):

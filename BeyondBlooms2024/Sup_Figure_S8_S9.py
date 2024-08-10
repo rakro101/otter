@@ -1,17 +1,15 @@
+import numpy as np
 import pandas as pd
 from scipy.stats import ks_2samp
-import numpy as np
 
 np.random.seed(42)
 from sklearn.utils import shuffle
 
 if __name__ == "__main__":
     # Extract the columns you want to compare
-    from BeyondBlooms2024.config_file import (
-        PVAL_CCMN_PATH,
-        ANTI_CCMN_CON_MAP_PATH,
-        RANDOM_PVAL_CCMN_PATH,
-    )
+    from BeyondBlooms2024.config_file import (ANTI_CCMN_CON_MAP_PATH,
+                                              PVAL_CCMN_PATH,
+                                              RANDOM_PVAL_CCMN_PATH)
 
     anti_con_corr = pd.read_csv(ANTI_CCMN_CON_MAP_PATH, sep=";")["corr"]
     ccm_con_corr = pd.read_csv(PVAL_CCMN_PATH, sep=";")["corr"]

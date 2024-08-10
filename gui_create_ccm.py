@@ -1,8 +1,9 @@
 """ Script for generating the co-occurence network """
 
+import pandas as pd
+
 from lutra.networkz import Networkz
 from lutra.transform import Transform
-import pandas as pd
 
 
 def create_ccmn_network(

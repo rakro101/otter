@@ -1,22 +1,13 @@
 """ Script for generating the co-occurence network """
 
+import numpy as np
+import pandas as pd
+
+from config_file import (ABUNDANCES_FILE, CCMN_ALPHA, CCMN_META_PATH,
+                         CCMN_METHOD, CCMN_NETWORK_PATH, CCMN_SYM, CCMN_TR,
+                         FFT_COEFFS, HELLENIGER_NORM, METADATA_FILE, TAXA_FILE)
 from lutra.networkz import Networkz
 from lutra.transform import Transform
-import pandas as pd
-import numpy as np
-from config_file import (
-    HELLENIGER_NORM,
-    CCMN_METHOD,
-    FFT_COEFFS,
-    METADATA_FILE,
-    ABUNDANCES_FILE,
-    TAXA_FILE,
-    CCMN_TR,
-    CCMN_ALPHA,
-    CCMN_SYM,
-    CCMN_NETWORK_PATH,
-    CCMN_META_PATH,
-)
 
 
 def test_create_ccmn_network():

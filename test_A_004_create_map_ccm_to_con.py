@@ -1,13 +1,10 @@
 """ Script to map the CON and CCM together"""
 
 import pandas as pd
+
+from config_file import (CCMN_CON_MAP_PATH, CCMN_NETWORK_PATH,
+                         CON_LOUVAIN_META_PATH, CON_LOUVAIN_NETWORK_PATH)
 from lutra.mapping import map_ccm_to_con
-from config_file import (
-    CCMN_CON_MAP_PATH,
-    CON_LOUVAIN_META_PATH,
-    CON_LOUVAIN_NETWORK_PATH,
-    CCMN_NETWORK_PATH,
-)
 
 
 def test_ccmn_con_mapping():

@@ -1,9 +1,9 @@
-import pandas as pd
 import networkx as nx
 import numpy as np
+import pandas as pd
 
 np.random.seed(42)
-from lutra.config import color_month_dict, color_label_dict
+from lutra.config import color_label_dict, color_month_dict
 
 
 def calc_centrality(df_search_all: pd.DataFrame):
@@ -172,9 +172,9 @@ def enriched_meta_table(
             "Nodes"
         ].apply(lambda x: d_apply(x, bc_dict))
         print("Calc CCM_Closeness Centrality ")
-        meta_data_combined["CCM_Closeness Centrality"] = meta_data_combined["Nodes"].apply(
-            lambda x: d_apply(x, cc_dict)
-        )
+        meta_data_combined["CCM_Closeness Centrality"] = meta_data_combined[
+            "Nodes"
+        ].apply(lambda x: d_apply(x, cc_dict))
 
         ccm_node_centrality_dict, ccm_node_between_dict = calc_cluster_centrality(
             ccm_network, df_meta
@@ -194,9 +194,9 @@ def enriched_meta_table(
         meta_data_combined["CON_Betweenness_Centrality"] = meta_data_combined[
             "Nodes"
         ].apply(lambda x: d_apply(x, con_bc_dict))
-        meta_data_combined["CON_Closeness Centrality"] = meta_data_combined["Nodes"].apply(
-            lambda x: d_apply(x, con_cc_dict)
-        )
+        meta_data_combined["CON_Closeness Centrality"] = meta_data_combined[
+            "Nodes"
+        ].apply(lambda x: d_apply(x, con_cc_dict))
 
         con_node_centrality_dict, con_node_between_dict = calc_cluster_centrality(
             network, df_meta
@@ -214,8 +214,13 @@ def enriched_meta_table(
         "LouvainLabelD"
     ].apply(lambda x: d_apply(x, color_label_dict))
     try:
-        shape_dict = {"Eukaryota": "Diamond", "Bacteria": "Ellipse", "Phages": "V", "Archea": "Octagon",
-                      "Zooplankton": "Triangle", }
+        shape_dict = {
+            "Eukaryota": "Diamond",
+            "Bacteria": "Ellipse",
+            "Phages": "V",
+            "Archea": "Octagon",
+            "Zooplankton": "Triangle",
+        }
         meta_data_combined["Shape"] = meta_data_combined["Kingdom"].map(shape_dict)
     except KeyError as ke:
         print(ke)

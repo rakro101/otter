@@ -1,22 +1,17 @@
 """ Script for calculating the p-value substituation for the CCM Network """
 
 import pandas as pd
-from lutra.permutation import get_ccm_pvalues
+
+from BeyondBlooms2024.config_file import (ABUNDANCES_FILE, CCMN_CON_MAP_PATH,
+                                          CON_LOUVAIN_META_PATH,
+                                          CON_LOUVAIN_NETWORK_PATH,
+                                          ENRICHED_META_PATH, METADATA_FILE,
+                                          NUM_CORES, NUM_PERMUTATIONS,
+                                          NUM_SAMPLES, PRUNED_PVAL_CCMN_PATH,
+                                          PVAL_CCMN_PATH,
+                                          RANDOM_PVAL_CCMN_PATH)
 from lutra.enrich import enriched_meta_table
-from BeyondBlooms2024.config_file import (
-    ABUNDANCES_FILE,
-    CCMN_CON_MAP_PATH,
-    CON_LOUVAIN_META_PATH,
-    CON_LOUVAIN_NETWORK_PATH,
-    NUM_PERMUTATIONS,
-    NUM_SAMPLES,
-    NUM_CORES,
-    METADATA_FILE,
-    PRUNED_PVAL_CCMN_PATH,
-    PVAL_CCMN_PATH,
-    ENRICHED_META_PATH,
-    RANDOM_PVAL_CCMN_PATH,
-)
+from lutra.permutation import get_ccm_pvalues
 
 
 def add_sub_pval_to_ccmn():

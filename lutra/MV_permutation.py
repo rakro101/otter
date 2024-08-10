@@ -1,17 +1,20 @@
-import pandas as pd
-import numpy as np
-from lutra.con import CoOccurrence as ccmn
-from multiprocessing import Pool
-from functools import partial
-from itertools import combinations
-from tqdm import tqdm
 import random
 import warnings
+from functools import partial
+from itertools import combinations
+from multiprocessing import Pool
+
+import numpy as np
+import pandas as pd
+from tqdm import tqdm
+
+from lutra.con import CoOccurrence as ccmn
 
 warnings.filterwarnings("ignore")
-from lutra.transform import Transform
-from tqdm import tqdm
 from sklearn.utils import shuffle
+from tqdm import tqdm
+
+from lutra.transform import Transform
 
 np.random.seed(42)
 

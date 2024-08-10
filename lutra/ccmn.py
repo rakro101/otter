@@ -18,11 +18,12 @@ Adjusted by rakro101
 """
 
 from __future__ import division
+
 import matplotlib.pyplot as plt
+import numpy as np
+from ennemi import estimate_mi
 from scipy.spatial import distance
 from scipy.stats import pearsonr
-from ennemi import estimate_mi
-import numpy as np
 
 np.random.seed(42)
 

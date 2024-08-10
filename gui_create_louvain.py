@@ -1,5 +1,7 @@
 import pandas as pd
-from lutra.louvain import filter_threshold, find_fewest_cluster_number, create_meta_file
+
+from lutra.louvain import (create_meta_file, filter_threshold,
+                           find_fewest_cluster_number)
 
 
 def compute_louvain(

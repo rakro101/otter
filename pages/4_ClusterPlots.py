@@ -19,7 +19,6 @@ import plotly.express as px
 import scipy.optimize as opt
 import streamlit as st
 
-
 # Load your CSV files (replace with actual file paths)
 # @st.cache
 abundance_df = st.session_state.df1

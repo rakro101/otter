@@ -2,9 +2,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import streamlit as st
-from scipy.cluster import hierarchy
-import seaborn as sns
 from matplotlib import pyplot as plt
+from scipy.cluster import hierarchy
 
 st.set_page_config(
     page_title="Enviromental Heatmap Data", page_icon="📈", layout="wide"
@@ -232,8 +231,8 @@ plt.rc('xtick', labelsize=TICK)  # fontsize of the tick labels
 plt.rc('ytick', labelsize=TICK)  # fontsize of the tick labels
 plt.rc('legend', fontsize=MEDIUM)  # legend fontsize
 plt.rc('figure', titlesize=BIGGER_SIZE)
-import seaborn as sns
 import matplotlib.pyplot as plt
+import seaborn as sns
 # sns.set_theme(style='white')
 from scipy.cluster import hierarchy
 

@@ -1,21 +1,12 @@
 """ Script for generating the co-occurence network """
 
+import pandas as pd
+
+from config_file import (ABUNDANCES_FILE, CON_ALPHA, CON_META_PATH, CON_METHOD,
+                         CON_NETWORK_PATH, CON_SYM, CON_TR, FFT_COEFFS,
+                         HELLENIGER_NORM, METADATA_FILE, TAXA_FILE)
 from lutra.networkz import Networkz
 from lutra.transform import Transform
-import pandas as pd
-from config_file import (
-    HELLENIGER_NORM,
-    CON_METHOD,
-    FFT_COEFFS,
-    METADATA_FILE,
-    ABUNDANCES_FILE,
-    TAXA_FILE,
-    CON_TR,
-    CON_ALPHA,
-    CON_SYM,
-    CON_NETWORK_PATH,
-    CON_META_PATH,
-)
 
 
 def test_create_con_network():

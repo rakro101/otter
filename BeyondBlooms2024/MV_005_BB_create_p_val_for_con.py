@@ -1,15 +1,12 @@
 """ Modelvalidation """
 
 import pandas as pd
-from lutra.MV_permutation import get_ccm_pvalues
+
+from config_file import (ABUNDANCES_FILE, MV_CON_NETWORK_PATH,
+                         MV_PRUNED_PVAL_CCMN_PATH, MV_PVAL_CCMN_PATH,
+                         NUM_CORES)
 from lutra.enrich import enriched_meta_table
-from config_file import (
-    ABUNDANCES_FILE,
-    NUM_CORES,
-    MV_PRUNED_PVAL_CCMN_PATH,
-    MV_PVAL_CCMN_PATH,
-    MV_CON_NETWORK_PATH,
-)
+from lutra.MV_permutation import get_ccm_pvalues
 
 
 def add_sub_pval_to_ccmn():

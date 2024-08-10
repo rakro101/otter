@@ -1,7 +1,9 @@
-import pandas as pd
-import networkx as nx
 from typing import Dict, List, Tuple
+
+import networkx as nx
 import numpy as np
+import pandas as pd
+
 from lutra.config import color_label_dict
 
 np.random.seed(42)
