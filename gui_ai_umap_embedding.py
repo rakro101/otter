@@ -250,8 +250,11 @@ def main_embeddings(df_spec,meta, df_ccm, hellinger=True, num_coefficients=14, s
     meta["clu"] = meta["clu"].apply(lambda x: str(x))
     meta["colors"] = meta["ColorLabel"]
     meta = meta.sort_values(by='clu')
-
-    node_label = meta[["Nodes", "clu"]]
+    try:
+        node_label = meta[["Nodes", "clu"]]
+    except KeyError:
+        meta["Nodes"] = meta.index
+        node_label = meta[["Nodes", "clu"]]
     node_label.set_index("Nodes", inplace=True)
     clu_dict = node_label.to_dict()["clu"]
 
