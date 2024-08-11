@@ -83,7 +83,7 @@ with col1:
         help="Choose the separator for your inputfile.",
     )
     uploaded_file1 = st.file_uploader(
-        "Upload CSV File 1", type=["csv"], help="Uploaded CSV File"
+        "Upload CSV File 1", type=["csv"], help="Uploaded CSV File, format be like in the Tutorial/data/abundance_short.csv"
     )
     if uploaded_file1 is not None:
         df1 = pd.read_csv(uploaded_file1, sep=separator1, index_col=0)
@@ -110,7 +110,7 @@ with col3:
         help="Choose the separator for your inputfile.",
     )
     uploaded_file2 = st.file_uploader(
-        "Upload CSV File 2", type=["csv"], help="Uploaded CSV File"
+        "Upload CSV File 2", type=["csv"], help="Uploaded CSV File, format be like in the Tutorial/data/environment_info.csv"
     )
     if uploaded_file2 is not None:
         df2 = pd.read_csv(uploaded_file2, sep=separator2, index_col=0)
@@ -151,7 +151,7 @@ with col2:
         help="Choose the separator for your inputfile.",
     )
     uploaded_file3 = st.file_uploader(
-        "Upload CSV File 3", type=["csv"], help="Uploaded CSV File"
+        "Upload CSV File 3", type=["csv"], help="Uploaded CSV File, format be like in the Tutorial/data/taxa_info_short.csv"
     )
     if uploaded_file3 is not None and uploaded_file1 is not None:
         df3 = pd.read_csv(uploaded_file3, sep=separator3, index_col=0)
