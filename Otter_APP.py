@@ -65,7 +65,8 @@ with col0:
             st.write(f"Folder '{PREFIX_FIG}' created")
 
     RUN_ID = st.text_input("Fill in a Run ID", value="MyExperimentRun")
-
+    if "RUN_ID" not in st.session_state:
+        st.session_state.RUN_ID = RUN_ID
 
 # Create sub-containers for file uploads
 col1, col2, col3 = st.columns(3)
@@ -93,8 +94,8 @@ with col1:
         if checkbox_value1:
             df1 = df1.T
         # df1 = df1.T.head(50).T
-        if "df1" not in st.session_state:
-            st.session_state.df1 = df1
+        #if "df1" not in st.session_state:
+        st.session_state.df1 = df1
         num_events1 = df1.shape[0]
         num_asvs1 = df1.shape[1]
         st.write("Abundance: {} events, {} asvs".format(num_events1, num_asvs1))
@@ -119,8 +120,8 @@ with col3:
         # df2.drop_duplicates(inplace=True)
         if checkbox_value2:
             df2 = df2.T
-        if "df2" not in st.session_state:
-            st.session_state.df2 = df2
+        #if "df2" not in st.session_state:
+        st.session_state.df2 = df2
         num_events2 = df2.shape[0]
         num_features2 = df2.shape[1]
         st.write(
@@ -161,8 +162,8 @@ with col2:
         # df3.drop_duplicates(inplace=True)
         if checkbox_value3:
             df3 = df3.T
-        if "df3" not in st.session_state:
-            st.session_state.df3 = df3
+        #if "df3" not in st.session_state:
+        st.session_state.df3 = df3
         num_events3 = df3.shape[0]
         num_features3 = df3.shape[1]
         st.write("TaxaInfo: {} events, {} features".format(num_events3, num_features3))
@@ -210,18 +211,18 @@ with col1:
             step=0.01,
             help="Select the connectivity threshold the pvalue, edges below this value will be removed.",
         )
-        if "HELLENIGER_NORM" not in st.session_state:
-            st.session_state.HELLENIGER_NORM = HELLENIGER_NORM
-        if "CON_SYM" not in st.session_state:
-            st.session_state.CON_SYM = CON_SYM
-        if "CON_METHOD" not in st.session_state:
-            st.session_state.CON_METHOD = CON_METHOD
-        if "FFT_COEFFS" not in st.session_state:
-            st.session_state.FFT_COEFFS = FFT_COEFFS
-        if "CON_TR" not in st.session_state:
-            st.session_state.CON_TR = CON_TR
-        if "CON_ALPHA" not in st.session_state:
-            st.session_state.CON_ALPHA = CON_ALPHA
+        #if "HELLENIGER_NORM" not in st.session_state:
+        st.session_state.HELLENIGER_NORM = HELLENIGER_NORM
+        #if "CON_SYM" not in st.session_state:
+        st.session_state.CON_SYM = CON_SYM
+        #if "CON_METHOD" not in st.session_state:
+        st.session_state.CON_METHOD = CON_METHOD
+        #if "FFT_COEFFS" not in st.session_state:
+        st.session_state.FFT_COEFFS = FFT_COEFFS
+        #if "CON_TR" not in st.session_state:
+        st.session_state.CON_TR = CON_TR
+        #if "CON_ALPHA" not in st.session_state:
+        st.session_state.CON_ALPHA = CON_ALPHA
 
 with col2:
     my_expander2 = st.expander(label="Expand CCM Params")
@@ -252,16 +253,16 @@ with col2:
             min_value=1,
             help="Select the Louvain resolution.",
         )
-        if "CCMN_SYM" not in st.session_state:
-            st.session_state.CCMN_SYM = CCMN_SYM
-        if "CCMN_METHOD" not in st.session_state:
-            st.session_state.CCMN_METHOD = CCMN_METHOD
-        if "CCMN_METHOD" not in st.session_state:
-            st.session_state.CCMN_TR = CCMN_TR
-        if "CCMN_ALPHA" not in st.session_state:
-            st.session_state.CCMN_ALPHA = CCMN_ALPHA
-        if "LOUVAIN_RES" not in st.session_state:
-            st.session_state.LOUVAIN_RES = LOUVAIN_RES
+        #if "CCMN_SYM" not in st.session_state:
+        st.session_state.CCMN_SYM = CCMN_SYM
+        #if "CCMN_METHOD" not in st.session_state:
+        st.session_state.CCMN_METHOD = CCMN_METHOD
+        #if "CCMN_METHOD" not in st.session_state:
+        st.session_state.CCMN_TR = CCMN_TR
+        #if "CCMN_ALPHA" not in st.session_state:
+        st.session_state.CCMN_ALPHA = CCMN_ALPHA
+        #if "LOUVAIN_RES" not in st.session_state:
+        st.session_state.LOUVAIN_RES = LOUVAIN_RES
 
 with col3:
     my_expander3 = st.expander(label="Expand Permu Params")
@@ -428,8 +429,8 @@ with col4:
             mime="text/csv",  # Set the MIME type
             help="Download the file.",
         )
-        if "df_con" not in st.session_state:
-            st.session_state.df_con = df_con
+        #if "df_con" not in st.session_state:
+        st.session_state.df_con = df_con
     except:
         st.write("Con not calculated")
 
@@ -472,8 +473,8 @@ with col5:
             mime="text/csv",  # Set the MIME type
             help="Download the file.",
         )
-        if "df_ccmn" not in st.session_state:
-            st.session_state.df_ccmn = df_ccmn
+        #if "df_ccmn" not in st.session_state:
+        st.session_state.df_ccmn = df_ccmn
     except:
         st.write("CCM not calculated")
 
@@ -507,8 +508,8 @@ with col6:
             mime="text/csv",  # Set the MIME type
             help="Download the file.",
         )
-        if "df_louvain" not in st.session_state:
-            st.session_state.df_louvain = df_louvain
+        #if "df_louvain" not in st.session_state:
+        st.session_state.df_louvain = df_louvain
     except:
         st.write("Louvain not calculated")
 
@@ -538,8 +539,8 @@ with col7:
             mime="text/csv",  # Set the MIME type
             help="Download the file.",
         )
-        if "df_map" not in st.session_state:
-            st.session_state.df_map = df_map
+        #if "df_map" not in st.session_state:
+        st.session_state.df_map = df_map
     except:
         st.write("Mapping not calculated")
 
@@ -585,8 +586,8 @@ with col8:
             )
         )
         st.dataframe(df_pruned_ccmn.describe())
-        if "df_pruned_ccmn" not in st.session_state:
-            st.session_state.df_pruned_ccmn = df_pruned_ccmn
+        #if "df_pruned_ccmn" not in st.session_state:
+        st.session_state.df_pruned_ccmn = df_pruned_ccmn
         st.download_button(
             label="Download Pruned CCMN CSV",
             data=df_pruned_ccmn.to_csv(
@@ -600,8 +601,8 @@ with col8:
         df_enrich.drop(columns="Unnamed: 0", inplace=True)
         st.write("ENRICH")
         st.dataframe(df_enrich.describe())
-        if "df_enrich" not in st.session_state:
-            st.session_state.df_enrich = df_enrich
+        #if "df_enrich" not in st.session_state:
+        st.session_state.df_enrich = df_enrich
         st.download_button(
             label="Download Enriched CSV",
             data=df_enrich.to_csv(
@@ -624,8 +625,8 @@ with col8:
             mime="text/csv",  # Set the MIME type
             help="Download the file.",
         )
-        if "df_non_pruned" not in st.session_state:
-            st.session_state.df_non_pruned = df_non_pruned
+        #if "df_non_pruned" not in st.session_state:
+        st.session_state.df_non_pruned = df_non_pruned
     except:
         st.write("Pruning not calculated")
 

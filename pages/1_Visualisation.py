@@ -59,7 +59,7 @@ def sinusoidal(x, A=1, B=2, C=2, D=2):
 # Sinusoidal fitting for each unique Louvain label
 unique_labels = meta_df["LouvainLabelD"].unique()
 unique_labels = [label for label in unique_labels if str(label)!="nan"]
-print(unique_labels)
+print("unique_labels=", unique_labels)
 fig = px.line(title="Cluster Abundance with Sinusoidal Fit")
 print("ooooooooooooooooooooo")
 print(aggregated_values)
@@ -68,6 +68,7 @@ for label in unique_labels:
     label_values = np.array(
         aggregated_values[aggregated_values["LouvainLabelD"] == label].values
     )
+    print("label values: ", label_values)
     print(label_values)
     label_values = np.reshape(label_values, (TimeLen+1,))
     x_values = np.arange(TimeLen+1)  # More data points

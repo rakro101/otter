@@ -17,7 +17,10 @@ Streamlit. We're generating a bunch of random numbers in a loop for around
 # Upload metadata CSV
 df = st.session_state.df2
 st.dataframe(df)
-df.index = pd.to_datetime(df.index)
+try:
+    df.index = pd.to_datetime(df.index)
+except Exception as err:
+    print("Error converting - to datetime")
 df.sort_index(inplace=True)
 
 # Checkbox selection for columns

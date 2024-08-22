@@ -78,9 +78,15 @@ for clu in l_cus:
         print(temp_ab.columns)
         try:
             temp_ab.set_index("index", inplace=True)
-        except:
-            temp_ab.set_index("date", inplace=True)
-            pass
+        except Exception as e:
+            print(e)
+            try:
+                temp_ab.set_index("date", inplace=True)
+            except Exception as k:
+                print(k)
+                temp_ab.set_index("Sample", inplace=True)
+
+
         # print(temp_ab.head())
         dff.append(temp_ab)
 df_clus = pd.concat(dff, axis=1)
@@ -115,23 +121,32 @@ try:
 except Exception as e:
     print("no Column named O2_conc")
 
-try:
-    if "date" in df_env.columns:
-        df_env.set_index("date", inplace=True)
-    df_env.index = pd.to_datetime(df_env.index)
-except Exception as e:
-    if "date_" in df_env.columns:
-        df_env.set_index("date_", inplace=True)
-    df_env.index = pd.to_datetime(df_env.index)
-    print(e)
 
-#st.dataframe(df_env)
-#st.dataframe(df_clus)
-df_clus.index = pd.to_datetime(df_clus.index)
+if "date" in df_env.columns:
+    df_env.set_index("date", inplace=True)
+    df_env.index = pd.to_datetime(df_env.index)#ToDo: einrücken falls erros
+elif "date_" in df_env.columns:
+    df_env.set_index("date_", inplace=True)
+    df_env.index = pd.to_datetime(df_env.index)
+elif "Sample" in df_env.columns:
+    df_env.set_index("Sample", inplace=True)
+    print("No date column")
+
+
+st.dataframe(df_env)
+st.dataframe(df_clus)
+try:
+    df_clus.index = pd.to_datetime(df_clus.index)
+except Exception as e:
+    print(e)
+    print("No date column")
 df_corr_gen = df_clus.join(df_env, how="inner")  # only the 94 events (here 93!)
-#st.dataframe(df_corr_gen)
+st.dataframe(df_corr_gen)
 
 correlation_gen = df_corr_gen.corr(method="pearson")
+print("#########################")
+print("cols=", cols)
+print("correlation_gen =", correlation_gen.columns)
 target_df_gen = (
     correlation_gen[cols]
     .T[[cll for cll in df_clus.columns if cll not in ["index"]]]
@@ -204,7 +219,7 @@ m_1 = np.zeros((gen_no, env_no))
 m = np.zeros((gen_no, env_no))
 df_corr_gen.fillna(0,inplace=True)
 
-
+print("df_corr_gen= ", df_corr_gen)
 for i in range(0, gen_no):
     for j in range(0, env_no):
         cors, p_values = stats.pearsonr(df_corr_gen[gen_col[i]], df_corr_gen[env_col[j]])
