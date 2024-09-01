@@ -103,15 +103,15 @@ with col1:
 
 with col3:
     st.title("Environment")
-    checkbox_value2 = st.checkbox("Transpose DF2", help="Swap rows and columns")
+    checkbox_value2 = st.checkbox("Transpose DF3", help="Swap rows and columns")
     # Dropdown to select separator
     separator2 = st.selectbox(
-        "Select Separator 2",
+        "Select Separator 3",
         [";", ",", "\t", "\s"],
         help="Choose the separator for your inputfile.",
     )
     uploaded_file2 = st.file_uploader(
-        "Upload CSV File 2", type=["csv"], help="Uploaded CSV File, format be like in the Tutorial/data/environment_info.csv"
+        "Upload CSV File 3", type=["csv"], help="Uploaded CSV File, format be like in the Tutorial/data/environment_info.csv"
     )
     if uploaded_file2 is not None:
         df2 = pd.read_csv(uploaded_file2, sep=separator2, index_col=0)
@@ -144,15 +144,15 @@ with col3:
 
 with col2:
     st.title("Taxa")
-    checkbox_value3 = st.checkbox("Transpose DF3", help="Swap rows and columns")
+    checkbox_value3 = st.checkbox("Transpose DF2", help="Swap rows and columns")
     # Dropdown to select separator
     separator3 = st.selectbox(
-        "Select Separator 3",
+        "Select Separator 2",
         [";", ",", "\t", "\s"],
         help="Choose the separator for your inputfile.",
     )
     uploaded_file3 = st.file_uploader(
-        "Upload CSV File 3", type=["csv"], help="Uploaded CSV File, format be like in the Tutorial/data/taxa_info_short.csv"
+        "Upload CSV File 2", type=["csv"], help="Uploaded CSV File, format be like in the Tutorial/data/taxa_info_short.csv"
     )
     if uploaded_file3 is not None and uploaded_file1 is not None:
         df3 = pd.read_csv(uploaded_file3, sep=separator3, index_col=0)
@@ -276,7 +276,7 @@ with col3:
         )
         NUM_PERMUTATIONS = st.number_input(
             "Number of Permutations",
-            value=100,
+            value=2,
             min_value=1,
             help="Number of permutations to calculate the permutation significance value.",
         )
@@ -288,7 +288,7 @@ with col3:
         )
         NUM_CORES = st.number_input(
             "Number of Cores",
-            value=10,
+            value=2,
             min_value=1,
             help="Number of cores on your machine to calculate the permutation significance value.",
         )
