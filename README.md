@@ -1,8 +1,26 @@
 [![DOI:10.1101/2024.03.11.583746](http://img.shields.io/badge/DOI-<10.1101/2024.03.11.583746>-<#00000>.svg)](https://doi.org/10.1101/2024.03.11.583746)
 # otter
-Network Analysis for Co-Occurence, Louvain Clustering and Convergent Cross Mapping.
-The code will be avaible after acceptance of our journal article: Beyond blooms: 
-A novel time series analysis framework predicts seasonal keystone species and sheds light on ecosystem stability.
+<div style="float: left;">
+        <img src="img/otter_logo-removebg.png" alt="Otter Logo" width="200" title="This images was created using GENAI (DALL-E 3)."/>
+</div>
+<div style="text-align: right;">
+<br>
+<br>
+<br>
+    The otter Framework combines community network analysis using Co-Occurrence networks, Louvain Clustering and Convergent Cross Mapping networks.
+<br>
+<br>
+<br>
+<br>
+</div>
+
+
+
+### Projects:
+- BeyondBlooms2024 A novel time series analysis framework predicts seasonal keystone species and sheds light on ecosystem stability. (https://www.biorxiv.org/content/10.1101/2024.03.11.583746v3)
+Raw metabarcoding reads will be accessible under https://www.ebi.ac.uk/ena/browser/view/PRJEB43905.
+
+- FramPhages2024 (In preparation)
 
 
 ### Installation
@@ -24,10 +42,8 @@ The CCM modul is based on https://github.com/PrinceJavier/causal_ccm.
 The Energy Landscape Analysis is based on: https://github.com/kecosz/rELA
 
 
-### Data
-Raw metabarcoding reads will be accessible under https://www.ebi.ac.uk/ena/browser/view/PRJEB43905.
-
-
 ### Acknowledgements
 Thanks to Kenta Suzuki for supporting us in adapting rELA to our needs.
 Thanks to Prince Joseph Erneszer Javier for developing CCM package in python.
+
+
