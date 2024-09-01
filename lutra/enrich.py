@@ -1,9 +1,9 @@
-import pandas as pd
 import networkx as nx
 import numpy as np
+import pandas as pd
 
 np.random.seed(42)
-from lutra.config import color_month_dict, color_label_dict
+from lutra.config import color_label_dict, color_month_dict
 
 
 def calc_centrality(df_search_all: pd.DataFrame):
@@ -87,6 +87,7 @@ def enriched_meta_table(
     network: pd.DataFrame,
     ccm_network: pd.DataFrame,
     save_meta_path: str,
+    calc_centralities: bool = True,
 ) -> pd.DataFrame:
     """
 
@@ -133,9 +134,13 @@ def enriched_meta_table(
     # Drop redundant 'Sample' columns
     print("Drop redundant 'Sample' columns ")
     meta_data_enhanced.drop(columns=["Sample_with_Max_Abundance"], inplace=True)
-    meta_data_enhanced["max_abundance_month"] = pd.to_datetime(
-        meta_data_enhanced["key_0"]
-    ).dt.month
+    try:
+        meta_data_enhanced["max_abundance_month"] = pd.to_datetime(
+            meta_data_enhanced["key_0"]
+        ).dt.month
+    except Exception as exp_:
+        meta_data_enhanced["max_abundance_month"] = meta_data_enhanced["key_0"]
+        print(exp_)
     print("max_abundance_month")
     print(
         "The maximal abundance month is defined as the month of sample with highest abundance (of all samples)"
@@ -143,66 +148,83 @@ def enriched_meta_table(
     print(meta_data_enhanced["max_abundance_month"])
     meta_data_enhanced.drop(columns=["key_0"], inplace=True)
     print("apply colors for monthes ")
-    meta_data_enhanced["max_abundance_month_color"] = meta_data_enhanced[
-        "max_abundance_month"
-    ].apply(lambda x: color_month_dict[str(x)])
-    # Display or use the 'merged_data' as needed
+    try:
+        meta_data_enhanced["max_abundance_month_color"] = meta_data_enhanced[
+            "max_abundance_month"
+        ].apply(lambda x: color_month_dict[str(x)])
+    except Exception as exp__:
+        print(exp__)
+        meta_data_enhanced["max_abundance_month_color"] = "#FFFFFF"
+        # Display or use the 'merged_data' as needed
 
     print(meta_data_enhanced.head())
 
     df_taxa_louvain = pd.read_csv(save_meta_path, index_col=0, sep=";")
-
-    ### CCM Centrality
     meta_data_combined = df_taxa_louvain.merge(meta_data_enhanced, how="outer")
-    print("Start calculating centrality")
-    bc_dict, cc_dict = calc_centrality(ccm_network)
-    print("Calc CCM_Betweenness_Centrality ")
-    print(meta_data_combined.columns)
-    meta_data_combined["CCM_Betweenness_Centrality"] = meta_data_combined[
-        "Nodes"
-    ].apply(lambda x: d_apply(x, bc_dict))
-    print("Calc CCM_Closeness Centrality ")
-    meta_data_combined["CCM_Closeness Centrality"] = meta_data_combined["Nodes"].apply(
-        lambda x: d_apply(x, cc_dict)
-    )
+    if calc_centralities:
+        ### CCM Centrality
 
-    ccm_node_centrality_dict, ccm_node_between_dict = calc_cluster_centrality(
-        ccm_network, df_meta
-    )
-    meta_data_combined["ccm_cluster_closseness_centrality"] = meta_data_combined[
-        "Nodes"
-    ].map(ccm_node_centrality_dict)
-    meta_data_combined["ccm_cluster_betweeness_centrality"] = meta_data_combined[
-        "Nodes"
-    ].map(ccm_node_between_dict)
+        print("Start calculating centrality")
+        bc_dict, cc_dict = calc_centrality(ccm_network)
+        print("Calc CCM_Betweenness_Centrality ")
+        print(meta_data_combined.columns)
+        meta_data_combined["CCM_Betweenness_Centrality"] = meta_data_combined[
+            "Nodes"
+        ].apply(lambda x: d_apply(x, bc_dict))
+        print("Calc CCM_Closeness Centrality ")
+        meta_data_combined["CCM_Closeness Centrality"] = meta_data_combined[
+            "Nodes"
+        ].apply(lambda x: d_apply(x, cc_dict))
 
-    ### CON Centrality
-    print("Calc CON Centrality")
-    con_bc_dict, con_cc_dict = calc_centrality(network)
+        ccm_node_centrality_dict, ccm_node_between_dict = calc_cluster_centrality(
+            ccm_network, df_meta
+        )
+        meta_data_combined["ccm_cluster_closseness_centrality"] = meta_data_combined[
+            "Nodes"
+        ].map(ccm_node_centrality_dict)
+        meta_data_combined["ccm_cluster_betweeness_centrality"] = meta_data_combined[
+            "Nodes"
+        ].map(ccm_node_between_dict)
 
-    print(meta_data_combined.columns)
-    meta_data_combined["CON_Betweenness_Centrality"] = meta_data_combined[
-        "Nodes"
-    ].apply(lambda x: d_apply(x, con_bc_dict))
-    meta_data_combined["CON_Closeness Centrality"] = meta_data_combined["Nodes"].apply(
-        lambda x: d_apply(x, con_cc_dict)
-    )
+        ### CON Centrality
+        print("Calc CON Centrality")
+        con_bc_dict, con_cc_dict = calc_centrality(network)
 
-    con_node_centrality_dict, con_node_between_dict = calc_cluster_centrality(
-        network, df_meta
-    )
-    meta_data_combined["con_cluster_closseness_centrality"] = meta_data_combined[
-        "Nodes"
-    ].map(con_node_centrality_dict)
-    meta_data_combined["con_cluster_betweeness_centrality"] = meta_data_combined[
-        "Nodes"
-    ].map(con_node_between_dict)
+        print(meta_data_combined.columns)
+        meta_data_combined["CON_Betweenness_Centrality"] = meta_data_combined[
+            "Nodes"
+        ].apply(lambda x: d_apply(x, con_bc_dict))
+        meta_data_combined["CON_Closeness Centrality"] = meta_data_combined[
+            "Nodes"
+        ].apply(lambda x: d_apply(x, con_cc_dict))
+
+        con_node_centrality_dict, con_node_between_dict = calc_cluster_centrality(
+            network, df_meta
+        )
+        meta_data_combined["con_cluster_closseness_centrality"] = meta_data_combined[
+            "Nodes"
+        ].map(con_node_centrality_dict)
+        meta_data_combined["con_cluster_betweeness_centrality"] = meta_data_combined[
+            "Nodes"
+        ].map(con_node_between_dict)
 
     print(meta_data_combined.columns)
     print("Apply Louvain Color")
     meta_data_combined["louvain_label_color"] = meta_data_combined[
         "LouvainLabelD"
     ].apply(lambda x: d_apply(x, color_label_dict))
+    try:
+        shape_dict = {
+            "Eukaryota": "Diamond",
+            "Bacteria": "Ellipse",
+            "Phages": "V",
+            "Archea": "Octagon",
+            "Zooplankton": "Triangle",
+        }
+        meta_data_combined["Shape"] = meta_data_combined["Kingdom"].map(shape_dict)
+    except KeyError as ke:
+        print(ke)
+        print("No Kingdom found in DF")
     meta_data_combined.to_csv(save_meta_path, index=False)
     print(meta_data_combined.head())
 

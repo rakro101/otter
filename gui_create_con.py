@@ -1,30 +1,37 @@
-""" Script for generating the co-occurence network """
-
 import pandas as pd
 
-from config_file import (ABUNDANCES_FILE, CON_ALPHA, CON_META_PATH, CON_METHOD,
-                         CON_NETWORK_PATH, CON_SYM, CON_TR, FFT_COEFFS,
-                         HELLENIGER_NORM, METADATA_FILE, TAXA_FILE)
 from lutra.networkz import Networkz
 from lutra.transform import Transform
 
 
-def test_create_con_network():
+def create_con_network(
+    HELLENIGER_NORM,
+    CON_METHOD,
+    FFT_COEFFS,
+    df_env,
+    df_spec,
+    df_taxa_info,
+    CON_TR,
+    CON_ALPHA,
+    CON_SYM,
+    CON_NETWORK_PATH,
+    CON_META_PATH,
+):
     print("Start CON construction")
-    df_spec = pd.read_csv(ABUNDANCES_FILE, sep=";", index_col=0)
+    # df_spec = pd.read_csv(ABUNDANCES_FILE, sep=";", index_col=0)
     if HELLENIGER_NORM == True:
         df_spec = Transform(df_spec).apply_hellinger()
     print(df_spec.shape)
     # for testing
-    df_spec = df_spec.T.head(50).T
+    # df_spec = df_spec.T.head(50).T
 
-    df_env = pd.read_csv(METADATA_FILE, sep=";", index_col=0, decimal=";")
+    # df_env = pd.read_csv(METADATA_FILE, sep=";", index_col=0, decimal=";")
     print(df_env.columns)
-    df_taxa_info = pd.read_csv(
-        TAXA_FILE,
-        sep=";",
-        index_col=0,
-    )
+    # df_taxa_info = pd.read_csv(
+    #    TAXA_FILE,
+    #    sep=";",
+    #    index_col=0,
+    # )
     calculator = Networkz(
         df_spec, None, df_taxa_info, method=CON_METHOD, num_coefficients=FFT_COEFFS
     )
@@ -48,8 +55,3 @@ def test_create_con_network():
         mod="meta",
     )
     print("End CON construction")
-
-
-if __name__ == "__main__":
-    # Example usage
-    test_create_con_network()

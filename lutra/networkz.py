@@ -1,17 +1,19 @@
 """ Mutual Information Attractor Network - miat """
 
+import warnings
+from functools import partial
 from itertools import combinations, combinations_with_replacement
+from multiprocessing import Pool
+from typing import Any, List, Union
+
+import networkx as nx
+import numpy as np
+import pandas as pd
+import statsmodels.stats.multitest as smm
+from tqdm import tqdm
+
 from lutra.ccmn import ConvergentCrossMapping as ccmn
 from lutra.con import CoOccurrence as con
-import pandas as pd
-from tqdm import tqdm
-from typing import Union, Any, List
-import numpy as np
-import networkx as nx
-import warnings
-import statsmodels.stats.multitest as smm
-from multiprocessing import Pool
-from functools import partial
 
 np.random.seed(42)
 
@@ -136,23 +138,47 @@ class Networkz:
         num_cores = self.num_cores
         num_pairs = len(column_pairs)
         print(num_pairs)
-        chunksize = num_pairs // (num_cores * 10)
-        # Create a multiprocessing pool with 72 processes (one for each CPU core)
-        with Pool(processes=num_cores) as pool:
-            calculate_causality_partial = partial(
-                self.calculate_relation_pairwise, data=self.data
-            )
-            # Map pairs to processes and get the results
-            results = list(
-                tqdm(
-                    pool.imap(
-                        calculate_causality_partial, column_pairs, chunksize=chunksize
-                    ),
-                    total=len(column_pairs),
-                    desc="Calculating correlations",
+        try:
+            chunksize = num_pairs // (num_cores * 10)
+            # Create a multiprocessing pool with 72 processes (one for each CPU core)
+            with Pool(processes=num_cores) as pool:
+                calculate_causality_partial = partial(
+                    self.calculate_relation_pairwise, data=self.data
                 )
-            )
-            correlations = [result for sublist in results for result in sublist]
+                # Map pairs to processes and get the results
+                results = list(
+                    tqdm(
+                        pool.imap(
+                            calculate_causality_partial,
+                            column_pairs,
+                            chunksize=chunksize,
+                        ),
+                        total=len(column_pairs),
+                        desc="Calculating correlations",
+                    )
+                )
+                correlations = [result for sublist in results for result in sublist]
+        except Exception as e:
+            print(e)
+            chunksize = num_pairs
+            # Create a multiprocessing pool with 72 processes (one for each CPU core)
+            with Pool(processes=num_cores) as pool:
+                calculate_causality_partial = partial(
+                    self.calculate_relation_pairwise, data=self.data
+                )
+                # Map pairs to processes and get the results
+                results = list(
+                    tqdm(
+                        pool.imap(
+                            calculate_causality_partial,
+                            column_pairs,
+                            chunksize=chunksize,
+                        ),
+                        total=len(column_pairs),
+                        desc="Calculating correlations",
+                    )
+                )
+                correlations = [result for sublist in results for result in sublist]
 
         result_df = pd.DataFrame(
             correlations, columns=["from", "to", "corr", "p-value", "pearson"]

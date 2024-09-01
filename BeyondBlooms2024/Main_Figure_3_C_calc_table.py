@@ -1,23 +1,16 @@
-import pandas as pd
 import numpy as np
+import pandas as pd
 
 num_coefficients = 14
-from BeyondBlooms2024.config import name_dict, color_dict
-from BeyondBlooms2024.config_file import (
-    ABUNDANCES_FILE,
-    CCMN_CON_MAP_PATH,
-    CON_LOUVAIN_META_PATH,
-    CON_LOUVAIN_NETWORK_PATH,
-    ENRICH,
-    NUM_PERMUTATIONS,
-    NUM_SAMPLES,
-    NUM_CORES,
-    METADATA_FILE,
-    PRUNED_PVAL_CCMN_PATH,
-    PVAL_CCMN_PATH,
-    ENRICHED_META_PATH,
-    RANDOM_PVAL_CCMN_PATH,
-)
+from BeyondBlooms2024.config import color_dict, name_dict
+from BeyondBlooms2024.config_file import (ABUNDANCES_FILE, CCMN_CON_MAP_PATH,
+                                          CON_LOUVAIN_META_PATH,
+                                          CON_LOUVAIN_NETWORK_PATH, ENRICH,
+                                          ENRICHED_META_PATH, METADATA_FILE,
+                                          NUM_CORES, NUM_PERMUTATIONS,
+                                          NUM_SAMPLES, PRUNED_PVAL_CCMN_PATH,
+                                          PVAL_CCMN_PATH,
+                                          RANDOM_PVAL_CCMN_PATH)
 
 if __name__ == "__main__":
     df_ccm = pd.read_csv(PRUNED_PVAL_CCMN_PATH, sep=";")

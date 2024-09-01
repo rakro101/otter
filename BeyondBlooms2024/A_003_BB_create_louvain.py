@@ -1,23 +1,17 @@
 """ Script for calculating the louvain clusters on the CON"""
 
 import pandas as pd
-from lutra.louvain import filter_threshold, find_fewest_cluster_number, create_meta_file
-from BeyondBlooms2024.config_file import (
-    HELLENIGER_NORM,
-    CON_METHOD,
-    FFT_COEFFS,
-    METADATA_FILE,
-    ABUNDANCES_FILE,
-    TAXA_FILE,
-    CON_TR,
-    CON_ALPHA,
-    CON_SYM,
-    CON_NETWORK_PATH,
-    CON_META_PATH,
-    LOUVAIN_RES,
-    CON_LOUVAIN_NETWORK_PATH,
-    CON_LOUVAIN_META_PATH,
-)
+
+from BeyondBlooms2024.config_file import (ABUNDANCES_FILE, CON_ALPHA,
+                                          CON_LOUVAIN_META_PATH,
+                                          CON_LOUVAIN_NETWORK_PATH,
+                                          CON_META_PATH, CON_METHOD,
+                                          CON_NETWORK_PATH, CON_SYM, CON_TR,
+                                          FFT_COEFFS, HELLENIGER_NORM,
+                                          LOUVAIN_RES, METADATA_FILE,
+                                          TAXA_FILE)
+from lutra.louvain import (create_meta_file, filter_threshold,
+                           find_fewest_cluster_number)
 
 
 def compute_louvain():

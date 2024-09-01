@@ -13,8 +13,10 @@ pylint
 openpyxl
 scikit-learn
 scikit-bio
+streamlit
 seaborn
 umap-learn
 plotly
 kaleido
 matplotlib_venn
+dask
